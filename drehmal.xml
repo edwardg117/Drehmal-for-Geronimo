@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="drehmalforgeronimo" abstract="false" name="Drehmal for Geronimo" newsUrl="about:blank" iconUrl="https://upload.wikimedia.org/wikipedia/commons/8/8f/SNive.gif" version="1.15.2" serverAddress="175.38.236.9:25575" generateList="true" autoConnect="true" revision="7" mainClass="cpw.mods.modlauncher.Launcher" launcherType="Vanilla">
+		<Loader type="Forge" version="1.15.2-31.2.46" loadOrder="0"/>
+		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/2987/251/AppleSkin-mc1.15.2-forge-1.0.14.jar</URL>
+			<Size>28861</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6aeac8d0074ab0a2372ec2c5f0ad0f69</MD5>
+			<Meta>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.14</version>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Ambient Sounds" id="ambientsounds" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/2965/645/AmbientSounds_v3.0.20_mc1.15.2.jar</URL>
+			<Size>76502452</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>103270c442d32d4552a6bbee357ffa0b</MD5>
+			<Meta>
+				<description>	Expands minecraft&apos;s ambient sounds.
+	</description>
+				<version>3.0.3</version>
+				<authors>CreativeMD</authors>
+			</Meta>
+		</Module>
+		<Module name="AttributeFix" id="attributefix" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2922/858/AttributeFix-1.15.2-7.0.2.jar</URL>
+			<Size>7708</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4f8f344d1c08ab80c47721061ca4cc99</MD5>
+			<Meta>
+				<description>Allows for attribute ranges to be configured.
+</description>
+				<version>7.0.2</version>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2911/830/AutoRegLib-1.5-40.jar</URL>
+			<Size>58933</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>06149a40dc0ced647dd41b11ab01b5cc</MD5>
+			<Meta>
+				<description>Automatically item, block, and model registration for mods.
+</description>
+				<version>1.5-40</version>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Corail Tombstone" id="tombstone" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3021/980/tombstone-4.5.6.jar</URL>
+			<Size>1055936</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ae2251a5e0ec7af852d0f0f689d6750d</MD5>
+			<Meta>
+				<license>LGPL v2.1</license>
+				<description>Corail Tombstone keeps you from losing your belongings on death, with many features of survivability and dimensional teleportation, in a medieval fantasy atmosphere related to the grave&apos;s souls.
+</description>
+				<version>4.5.6</version>
+				<authors>Corail31</authors>
+			</Meta>
+		</Module>
+		<Module name="FastLeafDecay" id="fastleafdecay" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3063/442/FastLeafDecay-v22.1.jar</URL>
+			<Size>8408</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>68cac95a28a6b791364a137c89ea3f07</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Increases leaf decay rates.
+
+Check out the config to change the decay rate!
+</description>
+				<version>${file.jarVersion}</version>
+				<authors>Olafski</authors>
+			</Meta>
+		</Module>
+		<Module name="Hardcore Revival" id="hardcorerevival" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2992/226/HardcoreRevival_1.15.2-4.0.2.jar</URL>
+			<Size>47346</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aad902491090c04faa71571c5f8807ef</MD5>
+			<Meta>
+				<description>Help your friends back up after they die (if you can make it in time)
+</description>
+				<version>${file.jarVersion}</version>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Portals" id="immersive_portals" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2996/746/immersive-portals-0.24forMc1.15withForge.jar</URL>
+			<Size>879747</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ebd78cde68b0e442412e0fa5fb1f4b0a</MD5>
+			<Meta>
+				<description>See through nether portals and end portal.
+Go inside portal seamlessly.
+Mirrors.
+World Wrapping.
+Vertical Dimension Connection.
+Alternate Dimensions.
+</description>
+				<version>0.24</version>
+				<authors>qouteall</authors>
+			</Meta>
+		</Module>
+		<Module name="Journeymap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2981/594/journeymap-1.15.2-5.7.0b3.jar</URL>
+			<Size>6823032</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>856568098ad0749eba62e15734e5be77</MD5>
+			<Meta>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.14.4-1.5-SNAPSHOT. Built: 2020-06-16-11:33:57.
+</description>
+				<version>5.7.0b3</version>
+				<authors>Techbrew, Mysticdrew</authors>
+			</Meta>
+		</Module>
+		<Module name="MixinBootstrap" id="mixinbootstrap" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3076/610/MixinBootstrap-1.0.5.jar</URL>
+			<Size>1066150</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bd76dd9467f3bc208d37b3c827e86c38</MD5>
+			<Meta>
+				<description>MixinBootstrap is a temporary way of booting Mixin in a MinecraftForge production environment.</description>
+				<version>1.0.5</version>
+				<authors>LX_Gaming</authors>
+			</Meta>
+		</Module>
+		<Module name="NetherPortalFix" id="netherportalfix" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2943/661/NetherPortalFix_1.15.2-6.0.2.jar</URL>
+			<Size>109134</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45de04e0b9636796ced5e6476e890ff5</MD5>
+			<Meta>
+				<description>Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer.
+</description>
+				<version>6.0.2</version>
+				<authors>BlayTheNinth;CFGrafanaStats</authors>
+			</Meta>
+		</Module>
+		<Module name="Overloaded Armor Bar" id="overloadedarmorbar" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/2844/091/overloadedarmorbar-4.0.0.jar</URL>
+			<Size>13381</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>33f087f67af73f0e9b9af07540bcd87d</MD5>
+			<Meta>
+				<description>Enhanced armor bar rendering for armor above diamond
+</description>
+				<version>4.0.0</version>
+				<authors>Tfarecnim, LocusWay</authors>
+			</Meta>
+		</Module>
+		<Module name="Phosphor" id="phosphor" depends="" side="SERVER">
+			<URL priority="0">https://edge.forgecdn.net/files/2919/811/phosphor-forge-mc1.15.2-0.5.2+build.4.jar</URL>
+			<Size>45363</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bc5d52e419292e8ad0d2741006f7d0f5</MD5>
+			<Meta>
+				<description>Phosphor is an optimization mod for Minecraft which improves the performance of the lighting engine, resulting in significantly reduced world generation times and improved server tick rates.
+
+You can help support development through making a pledge to my Patreon: https://patreon.com/jellysquid
+
+You can find the source code under the GNU LGPLv3 on GitHub: https://github.com/jellysquid3/phosphor-forge
+</description>
+				<version>0.5.2+build.4</version>
+				<authors>JellySquid</authors>
+			</Meta>
+		</Module>
+		<Module name="Quark" id="quark" depends="autoreglib" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2980/651/Quark-r2.1-245.jar</URL>
+			<Size>5424185</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>25226ee071db655177ecd165f3f5d722</MD5>
+			<Meta>
+				<description>Small things.
+</description>
+				<version>r2.1-245</version>
+				<authors>Vazkii, Wiiv, WireSegal, MCVinnyq</authors>
+			</Meta>
+		</Module>
+		<Module name="Quark Oddities" id="quarkoddities" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2914/445/QuarkOddities-1.15.2.jar</URL>
+			<Size>1852</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2b50248564c9a94ea9b56c97fd0e7563</MD5>
+			<Meta>
+				<description>Crazier Small things.
+</description>
+				<version>1.15.2</version>
+				<authors>Vazkii, Wiiv, WireSegal, MCVinnyq</authors>
+			</Meta>
+		</Module>
+		<Module name="Sneaky Magic" id="sneakymagic" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2902/915/SneakyMagic-v2.0-1.15.2.jar</URL>
+			<Size>29781</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>24098254e6de0294f342e89db5d55e45</MD5>
+			<Meta>
+				<description>Better vanilla enchantments! Use them on more tools and weapons. And curses are now hidden.</description>
+				<version>2.0</version>
+				<authors>Fuzs</authors>
+			</Meta>
+		</Module>
+		<Module name="Sound Filters" id="soundfilters" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3025/813/SoundFilters-0.14_for_1.15.2.jar</URL>
+			<Size>42438</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45804566534e005fc33fd10ae51a4f19</MD5>
+			<Meta>
+				<description>Adds reveb to caves, as well as muted sounds underwater/in lava, and behind walls.
+</description>
+				<version>0.14</version>
+				<authors>Tmtravlr</authors>
+			</Meta>
+		</Module>
+		<Module name="SwingThroughGrass" id="swingthroughgrass" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3083/277/swingthroughgrass-1.15.2-1.4.1.jar</URL>
+			<Size>22676</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1d82880a5b0c470501cd7f24d8d06358</MD5>
+			<Meta>
+				<description>Don&apos;t let the grass be between you and your prey!</description>
+				<version>1.4.1</version>
+				<authors>Exidex</authors>
+			</Meta>
+		</Module>
+		<Module name="FPS Reducer" id="fpsreducer" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3042/762/FpsReducer-mc1.15.2-1.18.jar</URL>
+			<Size>88411</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ed974eb8ef528090158d4aaccfcd28d6</MD5>
+			<Meta>
+				<description>Reduce GPU and CPU utilization during no operation.
+</description>
+				<version>1.18</version>
+				<authors>bre2el</authors>
+			</Meta>
+		</Module>
+		<Module name="Lithium" id="lithium" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2919/618/lithium-mc1.15.2-forge-0.4.6-rc3-mod.jar</URL>
+			<Size>257410</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>90daeda553fed2d7d0fcfe002d183ffb</MD5>
+			<Meta>
+				<description>Lithium is an free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.
+
+You can help support development through making a pledge to my Patreon: https://patreon.com/jellysquid
+
+You can find the source code under the GNU LGPLv3 on GitHub: https://github.com/jellysquid3/lithium
+</description>
+				<version>0.4.6-rc3</version>
+				<authors>JellySquid</authors>
+			</Meta>
+		</Module>
+		<Module name="OptiFine" id="optifine" depends="" side="CLIENT">
+			<URL priority="0">https://optifine.net/downloadx?f=preview_OptiFine_1.15.2_HD_U_G5_pre1.jar&amp;x=0df2919e8c294c9851acc8b0915b9805</URL>
+			<Size>5688087</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>264c332f9512c55b6bb8d93f5d6f9030</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>OptiFine is a Minecraft optimization mod.
+It allows Minecraft to run faster and look better with full support for shaders, HD textures and many configuration options.
+</description>
+				<version>1.0.0</version>
+				<authors>sp614x</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>

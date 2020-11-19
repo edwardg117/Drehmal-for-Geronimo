@@ -1,0 +1,43 @@
+
+[general]
+	#Allows infinity and mending to be applied at the same time.
+	"Infinity Mending Fix" = true
+	#Allows multishot and piercing to be applied at the same time.
+	"Multishot Piercing Fix" = true
+	#Allows different types of protection to be applied at the same time, just like in early versions of Minecraft 1.14.
+	"Protection Fix" = false
+	#Infinity enchantment no longer requires a single arrow to be present in the player inventory.
+	"True Infinity" = true
+	#Mending only selects items for repair that actually need it.
+	"Selective Mending" = true
+	#Disables damage immunity when hit by a projectile. Makes it possible for entities to be hit by multiple projectiles at once.
+	"No Projectile Immunity" = true
+
+[compatibility]
+	#Changes made to this section of the config file require a restart to apply. Disabling this setting may have unforeseen technical consequences.
+	"Require Restart" = true
+	#Additional enchantments to be made applicable to swords. Format for every entry is "<namespace>:<id>,<value>".
+	"Sword Enchantments" = ["minecraft:impaling"]
+	#Additional enchantments to be made applicable to axes. Format for every entry is "<namespace>:<id>,<value>".
+	"Axe Enchantments" = ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:impaling"]
+	#Additional enchantments to be made applicable to tridents. Format for every entry is "<namespace>:<id>,<value>".
+	"Trident Enchantments" = ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:quick_charge"]
+	#Additional enchantments to be made applicable to bows. Format for every entry is "<namespace>:<id>,<value>".
+	"Bow Enchantments" = ["minecraft:piercing", "minecraft:multishot", "minecraft:quick_charge"]
+	#Additional enchantments to be made applicable to crossbows. Format for every entry is "<namespace>:<id>,<value>".
+	"Crossbow Enchantments" = ["minecraft:flame", "minecraft:punch", "minecraft:power", "minecraft:infinity"]
+
+[curses]
+	#Hide curse enchantments from the item tooltip.
+	"Hide Curses" = true
+	#Temporarily disable effects of this mod while any shift key is pressed.
+	"Shift Shows Curses" = false
+	#Cursed items have a red name tag instead of a cyan one.
+	"Color Item Name" = true
+	#Remove one nbt tag entry in case the item is only enchanted with curses.
+	"Disguise NBT Tag" = false
+	#Prevent curses from showing even on enchanted books.
+	"Affect Books" = false
+	#Hide the enchantment glint in case the item is solely enchanted with curses.
+	"Hide Glint" = true
+
