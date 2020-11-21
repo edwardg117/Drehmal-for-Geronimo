@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="drehmalforgeronimo" abstract="false" name="Drehmal for Geronimo" newsUrl="https://raw.githubusercontent.com/edwardg117/Drehmal-for-Geronimo/master/drehmal.xml" iconUrl="https://upload.wikimedia.org/wikipedia/commons/8/8f/SNive.gif" version="1.15.2" generateList="true" autoConnect="true" revision="7" mainClass="cpw.mods.modlauncher.Launcher" launcherType="Vanilla">
 		<Loader type="Forge" version="1.15.2-31.2.46" loadOrder="0"/>
