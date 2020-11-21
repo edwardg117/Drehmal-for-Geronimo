@@ -290,5 +290,18 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<authors>sp614x</authors>
 			</Meta>
 		</Module>
+		<Module name="RPG-Hud" id="rpg-hud" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3016/002/[1.15.2][Forge] RPG-HUD-3.8.2.jar</URL>
+			<Size>197286</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>b7a19b161faf201c211d851e44335318</MD5>
+			<Meta>
+				<description>This mod changes the way the HUD is rendered and adds several new functionalities and styles (mainly RPG-like styles)
+</description>
+				<version>3.8.2</version>
+				<authors>KurodaAkira</authors>
+			</Meta>
+		</Module>
 	</Server>
 </ServerPack>
