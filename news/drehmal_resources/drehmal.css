@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS for Drehmal News Page */
+
+h1 {
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    text-align:center;
+    /*background:rgb(0, 0, 0);*/
+}
+
+h2 {
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:26px;
+    text-align:left;
+    /*background:rgb(0, 0, 0);*/
+}
+
+h4 {
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    /*background:rgb(0, 0, 0);*/
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+p1 {
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /*background:url(background.jpg) scroll;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(34, 34, 34);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+  }
