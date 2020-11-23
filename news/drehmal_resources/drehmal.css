@@ -46,7 +46,7 @@ td1 {
 }
 
 body {
-    background:var(--background-image) scroll;
+    background:url(bgtest2.jpg) scroll;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
