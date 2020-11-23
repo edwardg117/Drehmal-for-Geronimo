@@ -126,6 +126,18 @@ Alternate Dimensions.
 				<version>5.7.0b3</version>
 				<authors>Techbrew, Mysticdrew</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://github.com/edwardg117/Drehmal-for-Geronimo/blob/master/config/journeymap-common.toml</URL>
+				<Path>config/journeymap-common.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>96c62cef557f9b44e835fc1ddae6458a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://github.com/edwardg117/Drehmal-for-Geronimo/blob/master/journeymap/server/5.7/journeymap.server.global.config</URL>
+				<Path>journeymap/server/5.7/journeymap.server.global.config</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>03fb8458dc47d8712cc405d0c74407d0</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="MixinBootstrap" id="mixinbootstrap" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3076/610/MixinBootstrap-1.0.5.jar</URL>
