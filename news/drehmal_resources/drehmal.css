@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS for Drehmal News Page */
 :root {
-    --background-image:url(bgtest2.jpg);
+    --background-image:url(https://github.com/edwardg117/Drehmal-for-Geronimo/raw/master/news/drehmal_resources/bgtest2.jpg);
     --theme-colour:crimson;
     --background-colour:rgb(34, 34, 34);
     --text-colour:aliceblue;
@@ -46,7 +46,7 @@ td1 {
 }
 
 body {
-    background:url(bgtest2.jpg) scroll;
+    background:var(--background-image) scroll;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

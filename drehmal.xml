@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="drehmalforgeronimo" abstract="false" name="Drehmal for Geronimo" newsUrl="https://htmlpreview.github.io/?https://github.com/edwardg117/Drehmal-for-Geronimo/blob/master/news/drehmal.html" iconUrl="https://upload.wikimedia.org/wikipedia/commons/8/8f/SNive.gif" version="1.15.2" generateList="true" autoConnect="true" revision="7" mainClass="cpw.mods.modlauncher.Launcher" launcherType="Vanilla">
+	<Server id="drehmalforgeronimo" abstract="false" name="Drehmal for Geronimo" newsUrl="F:\Drehmal Server\MCUpdater stuff\gitStuff\news\drehmal.html" iconUrl="https://upload.wikimedia.org/wikipedia/commons/8/8f/SNive.gif" version="1.15.2" generateList="true" autoConnect="true" revision="7" mainClass="cpw.mods.modlauncher.Launcher" launcherType="Vanilla">
 		<Loader type="Forge" version="1.15.2-31.2.46" loadOrder="0"/>
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/2987/251/AppleSkin-mc1.15.2-forge-1.0.14.jar</URL>
