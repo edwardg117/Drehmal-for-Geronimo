@@ -362,7 +362,7 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			<URL priority="0">https://edge.forgecdn.net/files/3069/048/FastFurnace-1.16.3-4.3.0.jar</URL>
 			<Size>14343</Size>
 			<Required>true</Required>
-			<ModType>Regular</ModType>
+			<ModType>Removal</ModType>
 			<MD5>bedfb7cd2a2579c6d2d88173fbae6a08</MD5>
 			<Meta>
 				<license>MIT License</license>
@@ -376,7 +376,7 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			<URL priority="0">https://edge.forgecdn.net/files/3112/661/FastWorkbench-1.16.3-4.4.1.jar</URL>
 			<Size>32471</Size>
 			<Required>true</Required>
-			<ModType>Regular</ModType>
+			<ModType>Removal</ModType>
 			<MD5>2d71a7fb1e8edbc75b18c0bc13735348</MD5>
 			<Meta>
 				<license>MIT License</license>
@@ -396,7 +396,7 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			<URL priority="0">https://edge.forgecdn.net/files/3092/113/Placebo-1.16.3-4.3.3.jar</URL>
 			<Size>100187</Size>
 			<Required>true</Required>
-			<ModType>Regular</ModType>
+			<ModType>Removal</ModType>
 			<MD5>3b15d29b837ef061e1f1534bf810a307</MD5>
 			<Meta>
 				<license>MIT License</license>
