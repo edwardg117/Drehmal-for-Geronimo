@@ -385,6 +385,12 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<version>${file.jarVersion}</version>
 				<authors></authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/edwardg117/Drehmal-for-Geronimo/master/config/fastbench.cfg</URL>
+				<Path>config/</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ac4bf81d54cefd288c7705bb34e8850f</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Placebo" id="placebo" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3092/113/Placebo-1.16.3-4.3.3.jar</URL>
