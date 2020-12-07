@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="drehmalfabric" abstract="false" name="Drehmal Fabric Test" newsUrl="about:blank" iconUrl="https://raw.githubusercontent.com/edwardg117/Drehmal-for-Geronimo/master/news/drehmal_resources/packicon.jpg" version="1.16.4" serverAddress="localhost" generateList="true" autoConnect="true" revision="5" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.16.4%2Bbuild.7&amp;loader=0.10.8">fabric</Import>
+		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/2987/255/appleskin-mc1.16-fabric-1.0.11.jar</URL>
+			<Size>29865</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>32e486093afa3886557865113b59b0a0</MD5>
+			<Meta>
+				<license>Unlicense</license>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.11</version>
+				<authors>squeek502</authors>
+			</Meta>
+		</Module>
+		<Module name="Allure" id="allure" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3109/572/Allure-1.2.8.jar</URL>
+			<Size>1268916</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>77514bfe60216442f0ce21c4d8539148</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>This mod ports over features from charm/quark to fabric!</description>
+				<version>1.2.8</version>
+				<authors>Shad0w, Vazkii, Svenhjol, PixlPlex</authors>
+			</Meta>
+		</Module>
+		<Module name="Controlling For Fabric" id="controlling" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3039/289/Controlling-For-Fabric-1.1.3.jar</URL>
+			<Size>26042</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>959b46df0f4fb83579c3901982d35548</MD5>
+			<Meta>
+				<license></license>
+				<description></description>
+				<version>1.1.2</version>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Dynamic FPS" id="dynamicfps" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3032/511/dynamic-fps-1.2.1.jar</URL>
+			<Size>343936</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6cd170446e359f7eeef3e6bdc8dca9bb</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Dynamically adjusts FPS so minecraft doesn&apos;t hog resources in background.</description>
+				<version>1.2.1</version>
+				<authors>juliand665</authors>
+			</Meta>
+		</Module>
+		<Module name="Dynamic Sound Filters" id="dynamicsoundfilters" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3029/490/DynamicSoundFilters-1.1.3+1.16.2.jar</URL>
+			<Size>434912</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d9393f61ca6d26dc9f3f9d4f2a4d4074</MD5>
+			<Meta>
+				<license></license>
+				<description>Adds dynamic sound filters such as reverb in caves or muffled underwater sounds</description>
+				<version>1.1.3+1.16.2</version>
+				<authors>andre111</authors>
+			</Meta>
+		</Module>
+		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3125/823/fabric-api-0.27.1+1.16.jar</URL>
+			<Size>762735</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>09b9129533577eac53bae18290e091de</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Core API module providing key hooks and intercompatibility features.</description>
+				<version>0.27.1+1.16</version>
+				<authors>FabricMC</authors>
+			</Meta>
+		</Module>
+		<Module name="FallingTree" id="falling_tree" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3111/836/FallingTree-Fabric-1.16.4-2.7.0.jar</URL>
+			<Size>753578</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>25dd24d445f0fe1507fddf524f9bd875</MD5>
+			<Meta>
+				<license>GPL-3.0</license>
+				<description>Change the way you cut trees.</description>
+				<version>2.7.0</version>
+				<authors>RakSrinaNa</authors>
+			</Meta>
+		</Module>
+		<Module name="Fat Experience Orbs" id="fatxporbs" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3128/781/fatxporbs-0.0.9+1.16.4.jar</URL>
+			<Size>5001</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>198e663bf3e5762e4db199589f4ec857</MD5>
+			<Meta>
+				<license>MIT-0</license>
+				<description>Makes Experience orbs combine together.</description>
+				<version>0.0.9</version>
+				<authors>NinjaPhenix</authors>
+			</Meta>
+		</Module>
+		<Module name="Grass Kiss" id="grass_kiss" depends="" side="CLIENT">
+			<URL priority="0">https://github.com/gbl/grasskiss/releases/download/1.16.2-0.3.0/grasskiss-1.16.2-fabric0.17.2-0.3.0.jar</URL>
+			<Size>416112</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1e1463912780f5f8575aa79d533d61af</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Ignore grass when you want to</description>
+				<version>1.16.2-fabric0.17.2-0.3.0</version>
+				<authors>engiwengi</authors>
+			</Meta>
+		</Module>
+		<Module name="Health Overlay" id="healthoverlay" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3117/943/HealthOverlay-1.16.4-3.6.13.jar</URL>
+			<Size>240057</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>15a8173c57680767a8eeab58f9eb2ea5</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Displays additional hearts and absorption in the same row!</description>
+				<version>3.6.13</version>
+				<authors>Terrails</authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Portals" id="immersive_portals" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3119/369/immersive-portals-0.49-mc1.16.4-fabric.jar</URL>
+			<Size>1317417</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0705579f063c8bb3bcbadc5976405a3f</MD5>
+			<Meta>
+				<license>GPL</license>
+				<description>See through portals and travel between dimensions seamlessly.</description>
+				<version>0.49</version>
+				<authors>qouteall</authors>
+			</Meta>
+		</Module>
+		<Module name="Lithium" id="lithium" depends="" side="SERVER">
+			<URL priority="0">https://edge.forgecdn.net/files/3107/909/lithium-fabric-mc1.16.4-0.6.0.jar</URL>
+			<Size>287987</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f5dc4ae88be7ae6b07bb02dc92d158da</MD5>
+			<Meta>
+				<description>Lithium is an free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game. You can help support development through making a pledge to my Patreon: https://patreon.com/jellysquid You can find the source code under the GNU LGPLv3 on GitHub: https://github.com/jellysquid3/lithium</description>
+				<version>0.6.0</version>
+				<authors>JellySquid</authors>
+			</Meta>
+		</Module>
+		<Module name="MAmbience" id="mambience" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3029/495/Mambience-2.1.0+1.16.2.jar</URL>
+			<Size>40195704</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>98ecaeaadb4d2c49fb54ee1bd71c71f3</MD5>
+			<Meta>
+				<license></license>
+				<description>Adding ambient sounds to Minecraft</description>
+				<version>2.1.0+1.16.2</version>
+				<authors>andre111</authors>
+			</Meta>
+		</Module>
+		<Module name="Mod Menu" id="modmenu" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3121/655/modmenu-1.14.13+build.19.jar</URL>
+			<Size>131788</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0cb0594183a244626de74af40998c95c</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds a mod menu to view the list of mods you have installed.</description>
+				<version>1.14.13+build.19</version>
+				<authors>Prospector, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="OptiFabric" id="optifabric" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3117/790/optifabric-1.8.10.jar</URL>
+			<Size>273817</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5a97045096c73bc4512767e473bb303a</MD5>
+			<Meta>
+				<description>OptiFabric a mod that can be used to run OptiFine on the Fabric Mod Loader. It does this by taking the official OptiFine mod and making it compatible with the Fabric Mod Loader at runtime.</description>
+				<version>1.8.10</version>
+				<authors>modmuss50, Chocohead</authors>
+			</Meta>
+		</Module>
+		<Module name="OptiFine" id="optifine" depends="" side="CLIENT">
+			<URL priority="0">http://optifine.net/adloadx?f=OptiFine_1.16.4_HD_U_G5.jar&amp;x=1c50</URL>
+			<Size>5770052</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4eee5912a68bcbbff1c6bb3c8477461d</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>OptiFine is a Minecraft optimization mod.It allows Minecraft to run faster and look better with full support for shaders, HD textures and many configuration options.</description>
+				<version>1.0.0</version>
+				<authors>sp614x</authors>
+			</Meta>
+		</Module>
+		<Module name="Overloaded Armor Bar" id="overloadedarmorbar" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3007/431/overloadedarmorbar-5.0.0-fabric.jar</URL>
+			<Size>46887</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>4de499374ba1df7150b2e4d1b9be0480</MD5>
+			<Meta>
+				<license></license>
+				<description>The vanilla armor bar doesn&apos;t accurately show &quot;better than diamond&quot; level armor, as it simply maxes out when its full. This mod allows armor values over 20 to be displayed as different colored (configurable) icons depending on how many times you fill the bar.</description>
+				<version>5.0.0-fabric</version>
+				<authors>tfarecnim, Giselbaer</authors>
+			</Meta>
+		</Module>
+		<Module name="Phosphor" id="phosphor" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2987/621/phosphor-fabric-mc1.16.1-0.6.0+build.7.jar</URL>
+			<Size>60106</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>60aeaaaa87ecd09fa51d6647bd60fcd2</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Phosphor is an optimization mod for Minecraft which improves the performance of the lighting engine, resulting in significantly reduced world generation times and improved server tick rates. You can help feed me and support development on Patreon, gaining some special perks in the process! Any amount of support helps a ton. https://www.patreon.com/jellysquid</description>
+				<version>0.6.0+build.7</version>
+				<authors>JellySquid</authors>
+			</Meta>
+		</Module>
+		<Module name="RPG-Hud" id="rpg-hud" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3047/749/[1.16.2][Fabric] RPG-HUD-3.8.1.jar</URL>
+			<Size>208832</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>68cdbf48299be6139b5bf92d7e877638</MD5>
+			<Meta>
+				<license>GPL-3.0</license>
+				<description>This mod changes the way the HUD is rendered and adds several new functionalities and styles (mainly RPG-like styles)</description>
+				<version>3.8.1</version>
+				<authors>KurodaAkira</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3132/575/Xaeros_Minimap_20.28.2_Fabric_1.16.4.jar</URL>
+			<Size>698249</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>642bd492574b8b8d2ffd5ae947587736</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>The most vanilla-looking minimap for Minecraft.</description>
+				<version>20.28.2</version>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3132/588/XaerosWorldMap_1.11.4_Fabric_1.16.4.jar</URL>
+			<Size>392337</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bf5409bae926cd1ea819f1198d8c6c1c</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
+				<version>1.11.4</version>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
