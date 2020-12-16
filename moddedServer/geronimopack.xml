@@ -1,0 +1,2250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="geronimomoddedserver" abstract="false" name="Geronimo&apos;s Modded Server" newsUrl="https://htmlpreview.github.io/?https://github.com/edwardg117/Drehmal-for-Geronimo/blob/master/moddedServer/news/Modpack.html" iconUrl="https://raw.githubusercontent.com/edwardg117/Drehmal-for-Geronimo/master/moddedServer/news/news_resources/packicon.jpg" version="1.15.2" serverAddress="51.161.132.5:25584" generateList="true" autoConnect="true" revision="3" mainClass="cpw.mods.modlauncher.Launcher" launcherType="Vanilla">
+		<Loader type="Forge" version="1.15.2-31.2.47" loadOrder="0"/>
+		<Module name="Abnormals Core" id="abnormals_core" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2980/113/Abnormals-Core-1.15.2-1.0.6.jar</URL>
+			<Size>485767</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dc8d324bc3f528da585fbc1a3a0bb6d8</MD5>
+			<Meta>
+				<description>Library mod for all Abnormals mods.</description>
+				<version>1.0.6</version>
+				<authors>Minecraft Abnormals</authors>
+			</Meta>
+		</Module>
+		<Module name="QuarryPlus" id="quarryplus" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3018/780/AdditionalEnchantedMiner-1.15.2-15.3.3.jar</URL>
+			<Size>1659435</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>806ef725419eab3a1923499e14291fd0</MD5>
+			<Meta>
+				<description>&quot;This mod adds advanced quarry and more. This mod is UNOFFICIAL PORTED VERSION of QuarryPlus in 1.7.10.</description>
+				<version>15.3.3</version>
+				<authors>Kotori316</authors>
+			</Meta>
+		</Module>
+		<Module name="Advanced Finders" id="adfinders" depends="forgeendertech" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2927/895/AdFinders-1.15.2-4.0.5.0-build.0020.jar</URL>
+			<Size>113146</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>da51c7b04cc3e466b4d6ec428d992436</MD5>
+			<Meta>
+				<description>A bunch of new finders that make the mining process much more interesting and time-saving.
+</description>
+				<version>4.0.5.0</version>
+				<authors>EnderLanky</authors>
+			</Meta>
+		</Module>
+		<Module name="Advanced Hook Launchers" id="adhooks" depends="forgeendertech" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3009/304/AdHooks-1.15.2-5.1.0.0-build.0046.jar</URL>
+			<Size>89512</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f804887acd8b771583427acf7e7826b7</MD5>
+			<Meta>
+				<description>Adds different hooks with launchers which give you ability to climb, abseil, jump off the cliffs, pull entities or players, and even slay the dragons!
+</description>
+				<version>5.1.0.0</version>
+				<authors>EnderLanky</authors>
+			</Meta>
+		</Module>
+		<Module name="AI-Improvements" id="aiimprovements" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2876/104/AI-Improvements-1.15.2-0.3.0.jar</URL>
+			<Size>22121</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fb5e0fec348cec3ea07dacdff71b7d78</MD5>
+			<Meta>
+				<description>Small adjustements and improvements to AI logic focusing on optimizations for increased server performance</description>
+				<version>0.3.0</version>
+				<authors>DarkGuardsman, bl4ckscor3, dmodoomsirius, builtbrokenbot</authors>
+			</Meta>
+		</Module>
+		<Module name="Akashic Tome" id="akashictome" depends="autoreglib" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2936/509/AkashicTome-1.3-13.jar</URL>
+			<Size>39737</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>371a9753e92c67d389e6c96ec5ca1a2b</MD5>
+			<Meta>
+				<description>The book to end all books.
+</description>
+				<version>1.3-13</version>
+				<authors>Vazkii, MoreThanHidden</authors>
+			</Meta>
+		</Module>
+		<Module name="Ambient Sounds" id="ambientsounds" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/2965/645/AmbientSounds_v3.0.20_mc1.15.2.jar</URL>
+			<Size>76502452</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>103270c442d32d4552a6bbee357ffa0b</MD5>
+			<Meta>
+				<description>	Expands minecraft&apos;s ambient sounds.
+	</description>
+				<version>3.0.3</version>
+				<authors>CreativeMD</authors>
+			</Meta>
+		</Module>
+		<Module name="Angel Ring" id="angelring" depends="curios" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2881/014/angelring-1.15.2-1.2.0.jar</URL>
+			<Size>19175</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de240dedaf28479326ec9d0da28c7bc9</MD5>
+			<Meta>
+				<description>This mod adds an Angel Ring, which allows you to fly, like in a creative mode.
+</description>
+				<version>1.2.0</version>
+				<authors>DenisMasterHerobrine</authors>
+			</Meta>
+		</Module>
+		<Module name="Apotheosis" id="apotheosis" depends="placebo" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3084/768/Apotheosis-1.15.2-3.3.8.jar</URL>
+			<Size>719880</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>83da1e2e31ba44a21945cc4ed025c41e</MD5>
+			<Meta>
+				<description>All things that should have been.
+</description>
+				<version>3.3.8</version>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="Ars Nouveau" id="ars_nouveau" depends="patchouli curios geckolib" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3098/069/ars_nouveau-1.15.2-1.3.0.jar</URL>
+			<Size>1876841</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f3f596049b197659960edec87c3302f1</MD5>
+			<Meta>
+				<credits>The Forge and FML guys, for making this example</credits>
+				<description>Example placeholder mod.</description>
+				<version>1.3.0</version>
+				<authors>ExampleDude, baileyholl2</authors>
+			</Meta>
+		</Module>
+		<Module name="Baubles" id="baubles" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2902/038/baubles-1.7.1-1.15.2.jar</URL>
+			<Size>132469</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>281feda5d3a2130d398aa77b7065e9f6</MD5>
+			<Meta>
+				<description>Adding a touch of bling to Minecraft</description>
+				<version>1.7.1</version>
+				<authors>lazynessmind</authors>
+			</Meta>
+		</Module>
+		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3097/209/buildinggadgets-3.4.1.jar</URL>
+			<Size>926199</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a6952def5847beb93db913101231e465</MD5>
+			<Meta>
+				<description>Adds some gadgets to help you build!
+    Building and Exchanging Gadget offer basic building &amp; exchanging functionality for easily creating walls/columns etc.
+    The Destruction Gadget will help you clear out large Areas for your complex builds which you can Copy and Paste at will with the Copy-Paste Gadget!
+    </description>
+				<version>3.4.1</version>
+				<authors>Direwolf20</authors>
+			</Meta>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/2987/251/AppleSkin-mc1.15.2-forge-1.0.14.jar</URL>
+			<Size>28861</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6aeac8d0074ab0a2372ec2c5f0ad0f69</MD5>
+			<Meta>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.14</version>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Buzzier Bees" id="buzzierbees" depends="abnormals_core" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2988/910/Buzzier-Bees-1.15.2-1.5.2.jar</URL>
+			<Size>1156286</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f8f212b2efbe9f8fdf443c8c1e0111c</MD5>
+			<Meta>
+				<description>Buzzier Bees expands on the content introduced in 1.15. 
+Main features include wax, crystallized honey, and candles, and much more!
+Grizzly Bears, Black Bears, and Bumblebees will come soon!
+</description>
+				<version>1.5.2</version>
+				<authors>bageldotjpg, Five, and Farcr</authors>
+			</Meta>
+		</Module>
+		<Module name="Oh The Biomes You&apos;ll Go" id="byg" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3055/112/byg-1.0.11.jar</URL>
+			<Size>5966381</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>70829486ec8c179d791f55d7bfbb8ffb</MD5>
+			<Meta>
+				<description>An Adventure and Exploration mod with over 60 new biomes!
+</description>
+				<version>1.0.11</version>
+				<authors>AOCAWOL &amp; CorgiTaco</authors>
+			</Meta>
+		</Module>
+		<Module name="Caelus API" id="caelus" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2978/210/caelus-FORGE-1.15.2-2.0-beta3.jar</URL>
+			<Size>50235</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9dc860bad4dabe9f34cdefab486b5a58</MD5>
+			<Meta>
+				<description>A coremod and API to provide developers access to elytra flight mechanics through an entity attribute.
+</description>
+				<version>FORGE-1.15.2-2.0-beta3</version>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+		<Module name="ChickenChunks" id="chickenchunks" depends="codechickenlib" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3073/987/ChickenChunks-1.15.2-2.5.1.79-universal.jar</URL>
+			<Size>99965</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>33301f76c39c1a78283b213c12914e85</MD5>
+			<Meta>
+				<description>Advanced ChunkLoading management</description>
+				<version>1.15.2-2.5.1.79</version>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3001/212/ClientTweaks_1.15.2-4.2.0.jar</URL>
+			<Size>28653</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0c52dc70d45094ebbee8028a456b5235</MD5>
+			<Meta>
+				<description>There, I fixed Minecraft for you.
+</description>
+				<version>4.2.0</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Clumps" id="clumps" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3041/924/Clumps-5.0.2.6.jar</URL>
+			<Size>13313</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>756461f411ae9ea68517b84aa6d8a198</MD5>
+			<Meta>
+				<description>Clumps xp orbs together.
+</description>
+				<version>5.0.2.6</version>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="Collective" id="collective" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3082/939/collective-1.15.2-1.53.jar</URL>
+			<Size>109064</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f2e2f48cc1d3d8f2b38ad3e515e8f729</MD5>
+			<Meta>
+				<description>Collective is a shared library with common code for all of Serilum&apos;s mods.</description>
+				<version>1.53</version>
+				<authors>Rick South</authors>
+			</Meta>
+		</Module>
+		<Module name="ColossalChests" id="colossalchests" depends="cyclopscore" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3025/859/ColossalChests-1.15.2-1.7.12.jar</URL>
+			<Size>234948</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5de2d7596626e4d01c5a0df572ecee41</MD5>
+			<Meta>
+				<description>For when regular chests are too small.
+</description>
+				<version>1.7.12</version>
+				<authors>rubensworks (aka kroeser)</authors>
+			</Meta>
+		</Module>
+		<Module name="Comforts" id="comforts" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2882/629/comforts-FORGE-1.15.2-2.0.jar</URL>
+			<Size>234374</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>27dc1f1babc65da6892c06e42fcfa07a</MD5>
+			<Meta>
+				<description>Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors!
+</description>
+				<version>FORGE-1.15.2-2.0</version>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+		<Module name="CompactStorage" id="compact-storage" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2937/620/compact-storage-forge-4.0.3-1.15.2.jar</URL>
+			<Size>77582</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>06bf78a700e38379fd8eda7cad2f8b8e</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>24x12 chests and barrels!</description>
+				<version>4.0.3</version>
+				<authors>deletey, tobyystrong</authors>
+			</Meta>
+		</Module>
+		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/2994/774/Controlling-6.1.5.6.jar</URL>
+			<Size>38291</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cd43364a3fda348684189751e3389c16</MD5>
+			<Meta>
+				<description>Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.
+</description>
+				<version>6.1.5.6</version>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="CraftTweaker" id="crafttweaker" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2949/785/CraftTweaker-1.15.2-6.0.0.24.jar</URL>
+			<Size>1842020</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>78fd87173c72c34863b4db9332fd3e6d</MD5>
+			<Meta>
+				<description>Customize your minecraft experience!</description>
+				<version>6.0.0.24</version>
+				<authors>Jaredlll08, Kindlich and StanH</authors>
+			</Meta>
+		</Module>
+		<Module name="Create" id="create" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3066/060/create-mc1.15.2_v0.2.4e.jar</URL>
+			<Size>4331746</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7458e43dd03e15ebeabb782a78abb56e</MD5>
+			<Meta>
+				<description>Technology that empowers the player.</description>
+				<version>0.2.4e</version>
+				<authors>simibubi</authors>
+			</Meta>
+		</Module>
+		<Module name="Curios API" id="curios" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3021/133/curios-FORGE-1.15.2-2.0.2.6.jar</URL>
+			<Size>184356</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>322ed64f2d6d45efeebd9836e54a4ab1</MD5>
+			<Meta>
+				<description>A flexible and expandable accessory/equipment API for users and developers.
+</description>
+				<version>FORGE-1.15.2-2.0.2.6</version>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+		<Module name="Curious Elytra" id="curiouselytra" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2880/079/curiouselytra-FORGE-1.15.2-2.0.jar</URL>
+			<Size>26924</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4aa0ea199bb823e188e5c1fd87ed62f6</MD5>
+			<Meta>
+				<description>Adds curio support to the elytra so you can fly and wear chest armor at the same time.
+</description>
+				<version>FORGE-1.15.2-2.0</version>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+		<Module name="Dark Utilities" id="darkutils" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3105/429/DarkUtilities-1.15.2-3.1.9.jar</URL>
+			<Size>226399</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>764d0913495fe2cddb992fb7ecf8d120</MD5>
+			<Meta>
+				<description>Adds various bits and pieces to the game.
+</description>
+				<version>3.1.9</version>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="EnchantmentDescriptions" id="enchdesc" depends="bookshelf" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2967/790/EnchantmentDescriptions-1.15.2-2.0.9.jar</URL>
+			<Size>26302</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>92abff673284694fd5bf91b3541a3e07</MD5>
+			<Meta>
+				<description>Adds descriptions of enchantments to their tooltip.
+</description>
+				<version>2.0.9</version>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="Ender Mail" id="endermail" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3028/026/EnderMail-1.15.2-1.1.3.jar</URL>
+			<Size>131751</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>96233794871ef2154d48b8f7e32ebb34</MD5>
+			<Meta>
+				<description>    Employ Endermen to deliver packages anywhere in the world.
+    </description>
+				<version>1.1.3</version>
+				<authors>ChaosTheDude</authors>
+			</Meta>
+		</Module>
+		<Module name="Ender-Rift" id="enderrift" depends="waila" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3065/473/EnderRift-1.15.2-2.2.7.jar</URL>
+			<Size>294048</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>32b57813752a9e5ef8dc0b58ff64d806</MD5>
+			<Meta>
+				<description>Bottomless Powered Inventory
+</description>
+				<version>2.2.7</version>
+				<authors>gigaherz</authors>
+			</Meta>
+		</Module>
+		<Module name="EnderStorage" id="enderstorage" depends="codechickenlib" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3124/632/EnderStorage-1.15.2-2.5.1.157-universal.jar</URL>
+			<Size>213366</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0d661fc1fc90530ec171da7daa0647ec</MD5>
+			<Meta>
+				<description>Stores your stuff in the END!
+    Credits: Ecu - original idea, design, chest and pouch texture
+    Rosethorns - tank model
+    Soaryn - tank texture
+	</description>
+				<version>2.5.1.157</version>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="End Portal Recipe" id="endportalrecipe" depends="collective" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2983/861/endportalrecipe_1.15-2.1.jar</URL>
+			<Size>10049</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>276e52e64c438425f5b9ee05146a6802</MD5>
+			<Meta>
+				<description>Makes the end portal craftable and available in survival plus other tweaks.</description>
+				<version>2.1</version>
+				<authors>Rick South</authors>
+			</Meta>
+		</Module>
+		<Module name="End: Reborn" id="endreborn" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3031/453/EndReborn [0.6.1].jar</URL>
+			<Size>350051</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ef7fb4f6983380387f1d87f4664c939d</MD5>
+			<Meta>
+				<description>The dragon was only the beginning. And The End more than your brain can imagine</description>
+				<version>0.6.1</version>
+				<authors>EleC0TroN</authors>
+			</Meta>
+		</Module>
+		<Module name="Engineer&apos;s Decor" id="engineersdecor" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3131/439/engineersdecor-1.15.2-1.1.4.jar</URL>
+			<Size>1292982</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d14c7c880fc621d15173dba8953ec67d</MD5>
+			<Meta>
+				<description>Adds cosmetic blocks for the engineer&apos;s workshop, factory and home.</description>
+				<version>1.1.4</version>
+				<authors>wilechaote</authors>
+			</Meta>
+		</Module>
+		<Module name="Engineer&apos;s Tools" id="engineerstools" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2991/036/engineerstools-1.15.2-1.0.8.jar</URL>
+			<Size>281002</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>37176766fa0be22b322018bb85a1deea</MD5>
+			<Meta>
+				<description>Adds manual handheld tools for the Engineer.</description>
+				<version>1.0.8</version>
+				<authors>wilechaote</authors>
+			</Meta>
+		</Module>
+		<Module name="Expanded Storage" id="expandedstorage" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3000/614/expandedstorage-2.0.0+1.15.2.jar</URL>
+			<Size>515547</Size>
+			<Required>true</Required>
+			<ModType>Removal</ModType>
+			<MD5>82a13db9df0c451f2bb12abda7808c2d</MD5>
+			<Meta>
+				<description>Adds chests with higher capacities which can combine between any face.</description>
+				<version>2.0.0</version>
+				<authors>NinjaPhenix</authors>
+			</Meta>
+		</Module>
+		<Module name="Explorercraft" id="explorercraft" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3053/868/Explorercraft-1.15.2-4.0.3.jar</URL>
+			<Size>1731616</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>78fa932d86fe23c17e919fc609a9131e</MD5>
+			<Meta>
+				<description>A mod based on adding new Exploration and Adventures.
+Grab yourself a sleeping bag, campfire and a map and venture into the world!/
+</description>
+				<version>1.15.2-4.0.3</version>
+				<authors>Zathrox</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Disks" id="extradisks" depends="refinedstorage" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2983/044/extradisks-1.15.2-1.2.2.jar</URL>
+			<Size>88282</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2f638a500e9771dc35328233a469980b</MD5>
+			<Meta>
+				<description>This mod adds a few bigger storage disks for Refined Storage by raoulvdberge.
+</description>
+				<version>1.2.2</version>
+				<authors>MelanX</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Golems" id="golems" depends="quark" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3085/722/extragolems-10.2.3.jar</URL>
+			<Size>937948</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ab69e85cac388c7fe5e1bfc3d4529b92</MD5>
+			<Meta>
+				<description>Adds dozens of golems to the minecraft universe, each with unique textures and abilities!</description>
+				<version>10.2.3</version>
+				<authors>skyjay1 and the MMD Team</authors>
+			</Meta>
+		</Module>
+		<Module name="Power armor" id="power_armors" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3072/312/Fallout Inspired Power Armor V0.1.jar</URL>
+			<Size>9782243</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b5473923f2e032c0cf2eb8a1e55bcc48</MD5>
+			<Meta>
+				<description>A mod adding fallout inspired power armor
+</description>
+				<version>0.1</version>
+				<authors>Mike, MCreator</authors>
+			</Meta>
+		</Module>
+		<Module name="FastFurnace" id="fastfurnace" depends="placebo" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2856/529/FastFurnace-1.15.1-3.0.0.jar</URL>
+			<Size>15647</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>79f966f54b9f0d82525acc98d50bdbf0</MD5>
+			<Meta>
+				<description>Furnace improvements. Covers all &quot;furnace-based&quot; vanilla blocks.
+</description>
+				<version>3.0.0</version>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="FastLeafDecay" id="fastleafdecay" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3063/442/FastLeafDecay-v22.1.jar</URL>
+			<Size>8408</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>68cac95a28a6b791364a137c89ea3f07</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Increases leaf decay rates.
+
+Check out the config to change the decay rate!
+</description>
+				<version>22.1</version>
+				<authors>Olafski</authors>
+			</Meta>
+		</Module>
+		<Module name="FastWorkbench" id="fastbench" depends="placebo" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3003/114/FastWorkbench-1.15.2-3.1.1.jar</URL>
+			<Size>33854</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>70b4a9b9293a01c968e61a12f86562fb</MD5>
+			<Meta>
+				<description>Smol table go vroom.
+</description>
+				<version>3.1.1</version>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="Flux Networks" id="fluxnetworks" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2993/960/FluxNetworks-1.15.2-5.0.3-4.jar</URL>
+			<Size>497043</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e0221bedee4e74dc45fa6e33b970159e</MD5>
+			<Meta>
+				<description>Wireless Energy Networks</description>
+				<version>5.0.3-4</version>
+				<authors>Sonar Sonic, BloCamLimb</authors>
+			</Meta>
+		</Module>
+		<Module name="Geckolib" id="geckolib" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3034/409/forge-1.15.2-geckolib-2.0.0.jar</URL>
+			<Size>339056</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b4f973ad8cc1fed6a5f7c2ed31ea5706</MD5>
+			<Meta>
+				<description>Geckolib is an entity animation loader for Java Edition, which lets you export bedrock animations and play them automatically.</description>
+				<version>2.0.0</version>
+				<authors>Gecko, Eliot</authors>
+			</Meta>
+		</Module>
+		<Module name="Forge Endertech" id="forgeendertech" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3005/087/ForgeEndertech-1.15.2-6.0.4.0-build.0044.jar</URL>
+			<Size>445290</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2d2390648edd3b704da666c7ec37d08f</MD5>
+			<Meta>
+				<description>Contains all shared classes for Endertech mods.
+</description>
+				<version>6.0.4.0</version>
+				<authors>EnderLanky</authors>
+			</Meta>
+		</Module>
+		<Module name="FPS Reducer" id="fpsreducer" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3042/762/FpsReducer-mc1.15.2-1.18.jar</URL>
+			<Size>88411</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ed974eb8ef528090158d4aaccfcd28d6</MD5>
+			<Meta>
+				<description>Reduce GPU and CPU utilization during no operation.
+</description>
+				<version>1.18</version>
+				<authors>bre2el</authors>
+			</Meta>
+		</Module>
+		<Module name="MrCrayfish&apos;s Furniture Mod" id="cfm" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2853/267/furniture-7.0.0-pre16-1.15.1.jar</URL>
+			<Size>1596169</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>935be27b560afe528aa3f8a195bcfde4</MD5>
+			<Meta>
+				<description>Adds over 80 unique pieces of furniture to the game</description>
+				<version>7.0.0-pre16</version>
+				<authors>MrCrayfish</authors>
+			</Meta>
+		</Module>
+		<Module name="The Gaia Dimension" id="gaiadimension" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3102/680/gaiadimension-1.15.2-1.2.3.jar</URL>
+			<Size>2383264</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8da37659e0ef6e1caccc2c6e89cc52d5</MD5>
+			<Meta>
+				<description>Explore the fantastical land of Gaia and uncover the secrets within.</description>
+				<version>1.2.3</version>
+				<authors>Androsa</authors>
+			</Meta>
+		</Module>
+		<Module name="Goblin Traders" id="goblintraders" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2891/694/goblintraders-1.2.0-1.15.2.jar</URL>
+			<Size>393460</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d54308eb1c6bc60cba0d36e2177021f2</MD5>
+			<Meta>
+				<description>Adds goblins that trade speical items with the player!</description>
+				<version>1.2.0</version>
+				<authors>MrCrayfish</authors>
+			</Meta>
+		</Module>
+		<Module name="GreaterEye" id="greater_eye" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2982/417/GreaterEye-1.15.2-1.0.14.jar</URL>
+			<Size>15127</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>59625120197727d6ae6a80d190ba9e44</MD5>
+			<Meta>
+				<description>An improvement on the Eye of Ender
+</description>
+				<version>1.0.11</version>
+				<authors>kwpugh</authors>
+			</Meta>
+		</Module>
+		<Module name="Hardcore Revival" id="hardcorerevival" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2992/226/HardcoreRevival_1.15.2-4.0.2.jar</URL>
+			<Size>47346</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aad902491090c04faa71571c5f8807ef</MD5>
+			<Meta>
+				<description>Help your friends back up after they die (if you can make it in time)
+</description>
+				<version>4.0.2</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Horse Modifiers" id="horsemodifiers" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2876/503/horsemodifiers-1.15.2-1.2.jar</URL>
+			<Size>39884</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a00893f9ad62af4c3c592c413c798c20</MD5>
+			<Meta>
+				<description>Horses can be bred among themselves to create a better horse, so this mod changes this by adding carrots that alter the horse&apos;s attributes.
+</description>
+				<version>1.2</version>
+				<authors>lazynessmind</authors>
+			</Meta>
+		</Module>
+		<Module name="Waila" id="waila" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/2880/069/Hwyla-forge-1.10.8-B72_1.15.2.jar</URL>
+			<Size>174787</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>637faaca8787a2de370be1b5dea4de54</MD5>
+			<Meta>
+				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.
+Hwyla (Here&apos;s What You&apos;re Looking At) is a UI improvement mod aimed at providing block information directly in-game.</description>
+				<version>1.10.8-B72</version>
+				<authors>TehNut</authors>
+			</Meta>
+		</Module>
+		<Module name="Ice and Fire" id="iceandfire" depends="citadel" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3077/979/iceandfire-2.1.0-1.15.2.jar</URL>
+			<Size>24524460</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d01cee09d4779998d8dd4fb2a8bad997</MD5>
+			<Meta>
+				<description>Dragons and other mythological creatures in minecraft.</description>
+				<version>2.0.3-1.15.2</version>
+				<authors>Alexthe666</authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3099/023/ImmersiveEngineering-1.15.2-4.1.1-125.jar</URL>
+			<Size>8993914</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13fa8706b8631caef9325d9ebcaa2b59</MD5>
+			<Meta>
+				<description>A tech based mod focused on realism.</description>
+				<version>1.15.2-4.1.1-125</version>
+				<authors>BluSunrize and Damien A.W. Hazard</authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Posts" id="immersiveposts" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3092/446/immersiveposts-1.15.2-2.2.0.jar</URL>
+			<Size>358638</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>391cc320789f28c20b9395a60393ba8f</MD5>
+			<Meta>
+				<description>Put simply this mod allows you to have very tall posts with some different types to choose from, instead of just the Treated-Wood, Aluminum and Steel variants.</description>
+				<version>2.2.0</version>
+				<authors>TwistedGate</authors>
+			</Meta>
+		</Module>
+		<Module name="Industrial Foregoing" id="industrialforegoing" depends="titanium" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2980/323/industrial-foregoing-1.15.2-2.3.3-e356e61.jar</URL>
+			<Size>1404300</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>75f7054e704926ba26b9534ecc93757d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A small reinvention of Minefactory Reloaded.</description>
+				<version>2.3.3-e356e61</version>
+				<url>https://minecraft.curseforge.com/projects/industrial-foregoing</url>
+				<authors>Buuz135</authors>
+			</Meta>
+		</Module>
+		<Module name="Iron Chests" id="ironchest" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2898/344/ironchest-1.15.2-10.0.3.jar</URL>
+			<Size>183819</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f9a193373345dd03a93248ac72fe3f12</MD5>
+			<Meta>
+				<description>New chests with larger sizes, with in-place upgrade items.
+The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest
+    </description>
+				<version>1.15.2-10.0.1</version>
+				<authors>cpw, alexbegt, progwml6</authors>
+			</Meta>
+		</Module>
+		<Module name="Iron Jetpacks" id="ironjetpacks" depends="cucumber" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2993/574/IronJetpacks-1.15.2-3.0.3.jar</URL>
+			<Size>117050</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>162ca87fc0489acd951686427f451e2e</MD5>
+			<Meta>
+				<description>  A fully customizable FE powered jetpacks mod!
+  </description>
+				<version>3.0.3</version>
+				<authors>BlakeBr0</authors>
+			</Meta>
+		</Module>
+		<Module name="Item Filters" id="itemfilters" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3005/432/item-filters-2.2.0.15.jar</URL>
+			<Size>91682</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8632458f7d134e76c52287552b26d9ac</MD5>
+			<Meta>
+				<description>Adds Item Filters that can be used in other mods to filter multiple items in devices
+</description>
+				<version>2.2.0.15</version>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3039/710/jei-1.15.2-6.0.3.15.jar</URL>
+			<Size>704470</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>35219b860ca7e6e92000777c12c094cd</MD5>
+			<Meta>
+				<description>JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.
+</description>
+				<version>6.0.3.15</version>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="JEI Integration" id="jeiintegration" depends="jei" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3031/213/jeiintegration_1.15.2-3.1.1.2.jar</URL>
+			<Size>24834</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>05507383de2c7fa5f7d1f21bad7e04c9</MD5>
+			<Meta>
+				<description>  JEI Integration, the successor to NEI Integration by
+  Tonius, is an addon for Just Enough Items (JEI) for
+  Minecraft 1.10 and above. The mod provides JEI
+  recipe handlers for other mods where otherwise
+  absent. In addition to additional recipe handlers,
+  it adds configurable tooltips which can provide
+  insightful information for pack developers and
+  tech-savvy players.</description>
+				<version>3.1.1.2</version>
+				<authors>SnowShock35</authors>
+			</Meta>
+		</Module>
+		<Module name="JEI Tweaker" id="jeitweaker" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3003/397/JEITweaker-1.15.2-1.0.1.3.jar</URL>
+			<Size>7604</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8daee9e20a0662afe69d27492bb28b61</MD5>
+			<Meta>
+				<description>Adds JEI integration for CraftTweaker
+</description>
+				<version>1.0.1.3</version>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="Journeymap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2981/594/journeymap-1.15.2-5.7.0b3.jar</URL>
+			<Size>6823032</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>856568098ad0749eba62e15734e5be77</MD5>
+			<Meta>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.14.4-1.5-SNAPSHOT. Built: 2020-06-16-11:33:57.
+</description>
+				<version>5.7.0b3</version>
+				<authors>Techbrew, Mysticdrew</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="jei" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/2946/240/JustEnoughResources-1.15.2-0.10.1.77.jar</URL>
+			<Size>221036</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bef1008f5ffe5a640123decc36c0beda</MD5>
+			<Meta>
+				<description>Adds Resources and Mob Drops to JEI
+</description>
+				<version>0.10.1.77</version>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="Lollipop" id="lollipop" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3024/178/Lollipop-1.15.2-1.0.16.jar</URL>
+			<Size>465175</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>52196cd129f3036825e57fcddf2f1c18</MD5>
+			<Meta>
+				<description>A Library mod.
+</description>
+				<version>1.0.16</version>
+				<authors>owmii</authors>
+			</Meta>
+		</Module>
+		<Module name="Mahou Tsukai" id="mahoutsukai" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3135/826/mahoutsukai-1.15.2-v1.26.6.jar</URL>
+			<Size>2779053</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>541d5daa4ac5ea9a0bb45ed44aef921d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Mahou Tsukai - a magic mod based on catalysts and blood.</description>
+				<version>1.26.6</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai</url>
+				<authors>stepsword</authors>
+			</Meta>
+		</Module>
+		<Module name="Mantle" id="mantle" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2942/705/Mantle-1.15.2-1.5.15.jar</URL>
+			<Size>826536</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9918dba4040c7eacec5f3ba602776ac9</MD5>
+			<Meta>
+				<description>Shared code for Slime Knights mods and others.
+    </description>
+				<version>1.5.15</version>
+				<authors>Slime Knights</authors>
+			</Meta>
+		</Module>
+		<Module name="FlexibleMarker" id="flexiblemarker" depends="quarryplus" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2889/106/Marker-4.2.jar</URL>
+			<Size>95085</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d6a94c1545faa27c5beda5d1e4e08869</MD5>
+			<Meta>
+				<credits></credits>
+				<description>This mod adds a marker.</description>
+				<version>4.2</version>
+				<url>https://github.com/Kotori316/FlexibleMarker</url>
+				<authors>Kotori</authors>
+			</Meta>
+		</Module>
+		<Module name="McJtyLib" id="mcjtylib" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3131/240/mcjtylib-1.15-4.1.13.jar</URL>
+			<Size>551359</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0e8a830cfce4cb5dc3c909ed750f0d72</MD5>
+			<Meta>
+				<description>Base mod for all McJty mods
+</description>
+				<version>4.1.13</version>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="Large Ore Deposits" id="adlods" depends="forgeendertech" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2941/219/AdLods-1.15.2-3.0.3.0-build.0035.jar</URL>
+			<Size>86127</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8ea5c35431b0fa6c65b2d2b497b9072f</MD5>
+			<Meta>
+				<description>Adds rare, super-massive ore deposits to the world.
+</description>
+				<version>3.0.3.0</version>
+				<authors>EnderLanky</authors>
+			</Meta>
+		</Module>
+		<Module name="Aquaculture 2" id="aquaculture" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3103/314/Aquaculture-1.15.2-2.0.23.jar</URL>
+			<Size>521812</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dc8f29b2239736a4673e256d6bc47ee1</MD5>
+			<Meta>
+				<description>    Welcome to Aquaculture! An expansion of Minecraft&apos;s fishing system.
+    </description>
+				<version>2.0.23</version>
+				<authors>Shadowclaimer, Girafi</authors>
+			</Meta>
+		</Module>
+		<Module name="Atum 2" id="atum" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3128/662/Atum-1.15.2-2.1.12.jar</URL>
+			<Size>3295232</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>53f6ce183d4954b57a4ba108a8f9e473</MD5>
+			<Meta>
+				<description>    Atum 2 is a dimension mod that opens up a whole new desert dimension that contains an eternal world full of sand, temples, and tons of new foes.
+    Journey into Atum and discover ancient artifacts as you battle your way through vicious new enemies!
+    Atum is not for the faint of heart! Bring your best armor, weapon, and food/torches before you embark!
+    </description>
+				<version>2.1.12</version>
+				<authors>Shadowclaimer, Girafi, RebelKeithy</authors>
+			</Meta>
+		</Module>
+		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2911/830/AutoRegLib-1.5-40.jar</URL>
+			<Size>58933</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>06149a40dc0ced647dd41b11ab01b5cc</MD5>
+			<Meta>
+				<description>Automatically item, block, and model registration for mods.
+</description>
+				<version>1.5-40</version>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Animals Plus" id="betteranimalsplus" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3065/190/betteranimalsplus-1.15.2-10.0.0.jar</URL>
+			<Size>8318356</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>55881259d6b6452b8445e697f1f16083</MD5>
+			<Meta>
+				<description>Companion mod to Better Animals adding new creatures with the Better Animals art style.</description>
+				<version>10.0.0</version>
+				<authors>cybercat5555</authors>
+			</Meta>
+		</Module>
+		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2988/999/BiomesOPlenty-1.15.2-10.0.0.366-universal.jar</URL>
+			<Size>3232629</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>83160fc8aa49ee6c47cc508e74833fbf</MD5>
+			<Meta>
+				<description>    Adds over 50 new biomes, blocks, and more!
+    </description>
+				<version>1.15.2-10.0.0.366</version>
+				<authors>Forstride, Adubbz</authors>
+			</Meta>
+		</Module>
+		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2965/233/Bookshelf-1.15.2-5.6.40.jar</URL>
+			<Size>178961</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fff093f7cef52838c8773b86a47094b5</MD5>
+			<Meta>
+				<description>A library for building other mods.
+</description>
+				<version>5.6.40</version>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="Botania" id="botania" depends="patchouli curios" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3020/377/Botania-r1.15-388.jar</URL>
+			<Size>14776702</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ceca87547e380c97395b7e94930073d7</MD5>
+			<Meta>
+				<description>Botania is a mod that adds nature magic to Minecraft</description>
+				<version>388</version>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Citadel" id="citadel" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2983/465/citadel-1.1.11.jar</URL>
+			<Size>368597</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>26462965603b88192e71c360c8727aeb</MD5>
+			<Meta>
+				<description>A shared code library for many of Alexthe666&apos;s mods.
+Code used from LLibrary with permission.
+</description>
+				<version>1.1.11</version>
+				<authors>Alexthe666</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3124/624/CodeChickenLib-1.15.2-3.3.4.395-universal.jar</URL>
+			<Size>547526</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2ecf98aef421d7f9efb03c93d2873305</MD5>
+			<Meta>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier.
+It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..
+    </description>
+				<version>3.3.4.395</version>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2986/599/CookingForBlockheads_1.15.2-8.0.3.jar</URL>
+			<Size>656263</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>680293b064c4feb48cc2e5bb3b3b9455</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Adds a cooking book and multiblock kitchens that only shows recipes you can make with what you currently have in your inventory.</description>
+				<version>8.0.3</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Cucumber Library" id="cucumber" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3014/039/Cucumber-1.15.2-3.0.9.jar</URL>
+			<Size>133859</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>01b2aa6a0758b14edf7bf77a47a6708b</MD5>
+			<Meta>
+				<description>    A library of shared code that all of my mods depend on.
+    </description>
+				<version>3.0.9</version>
+				<authors>BlakeBr0</authors>
+			</Meta>
+		</Module>
+		<Module name="Cyclic" id="cyclic" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3054/231/Cyclic-1.15.2-0.7.0.jar</URL>
+			<Size>2187540</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1e7650b77ff71331e542d1d0b52ce0e9</MD5>
+			<Meta>
+				<description>A small mod by Lothrazar
+</description>
+				<version>0.7.0</version>
+				<authors>Lothrazar</authors>
+			</Meta>
+		</Module>
+		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3080/728/CyclopsCore-1.15.2-1.8.6.jar</URL>
+			<Size>807359</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4789fe9e4e4adbe79273384a5b7c718d</MD5>
+			<Meta>
+				<description>Coremod for Integrated Dynamics, EvilCraft and others.
+</description>
+				<version>1.8.6</version>
+				<authors>rubensworks (aka kroeser)</authors>
+			</Meta>
+		</Module>
+		<Module name="Dimensional Dungeons" id="dimdungeons" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3131/728/dimdungeons-1.071.jar</URL>
+			<Size>853815</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bee6143b41efed0729b1ab90457e1b79</MD5>
+			<Meta>
+				<description>This mod implements limitless proceedurally generated dungeons! These dungeons are placed in their own single dimension. Hence the name: Dimensional Dungeons.
+</description>
+				<version>1.15.2-1.071</version>
+				<authors>Catastrophe573</authors>
+			</Meta>
+		</Module>
+		<Module name="Doggy Talents" id="doggytalents" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2885/530/DoggyTalents-1.15.2-1.15.2.3.jar</URL>
+			<Size>795820</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>29eb66ffc1cc6c4c7d65cb4382398978</MD5>
+			<Meta>
+				<description>    Turning your wolves into fun, playful dogs.
+    </description>
+				<version>1.15.2.3</version>
+				<authors>percivalalb</authors>
+			</Meta>
+		</Module>
+		<Module name="dotHack Weapons" id="dothack" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2990/000/dotHack-Weapons-1.15.2-1.4.1.jar</URL>
+			<Size>9434924</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1dbe14da8fcace14c07bfbb4f4cbbe9b</MD5>
+			<Meta>
+				<description>Adds dotHack Weapons into Minecraft
+</description>
+				<version>1.4.1</version>
+				<authors>AzureDoomC</authors>
+			</Meta>
+		</Module>
+		<Module name="Elevator Mod" id="elevatorid" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2962/337/elevatorid-1.15.2-1.7.1.jar</URL>
+			<Size>184782</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e310f24efe8f5ae70c859eb76d30950c</MD5>
+			<Meta>
+				<description>Simple port of the elevator from OpenBlocks to 1.8+
+</description>
+				<version>1.7.1</version>
+				<authors>VsnGamer</authors>
+			</Meta>
+		</Module>
+		<Module name="Harcore Battle Towers" id="harcorebattletowers" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3003/211/HardcoreBattleTowers_3.0.0.jar</URL>
+			<Size>67515872</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ede352669718269266778386e20d7ec5</MD5>
+			<Meta>
+				<description>This mod adds hardcore battle towers. The word &quot;hardcore&quot; - really means hardcore. Dozens of spawners, hordes of monsters, unique bosses for each tower. </description>
+				<version>Official Remake v3.0.0</version>
+				<authors>Andrey Vilange</authors>
+			</Meta>
+		</Module>
+		<Module name="Magic Mirrors" id="magicmirror" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2922/665/magicmirror-1.4.8.jar</URL>
+			<Size>129837</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>57e18855a6110d64d25eee080da6b934</MD5>
+			<Meta>
+				<description>Magic Mirror mod adds several new items that are used to teleport you to your bed location almost instantly!
+</description>
+				<version>1.4.8</version>
+				<authors>CodenameRevy</authors>
+			</Meta>
+		</Module>
+		<Module name="Macaw&apos;s Bridges" id="mcwbridges" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2894/370/mcw-bridges-1.0.4fix-mc1.15.2.jar</URL>
+			<Size>148043</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2e1ee48921d9731a95b4a20af464b19f</MD5>
+			<Meta>
+				<description>Connect the world with bridges!</description>
+				<version>1.0.4</version>
+				<authors>Sketch Macaw</authors>
+			</Meta>
+		</Module>
+		<Module name="Macaw&apos;s Furnitures" id="mcwfurnitures" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2909/599/mcw-furniture-1.0.1-mc1.15.1 1.15.2.jar</URL>
+			<Size>907329</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>abe6f7c05202f770f1993c6562ee0548</MD5>
+			<Meta>
+				<description>Decorate your world with about 384 furniture!</description>
+				<version>1.0.1</version>
+				<authors>Sketch Macaw</authors>
+			</Meta>
+		</Module>
+		<Module name="Mekanism" id="mekanism" depends="theoneprobe" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2996/531/Mekanism-1.15.2-9.10.9.422.jar</URL>
+			<Size>7105895</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e6aec75ba1de1f4a9a899f2ce4ba7161</MD5>
+			<Meta>
+				<description>Mekanism is a Minecraft add-on featuring high-tech machinery that can be used to create powerful tools, armor, and weapons.</description>
+				<version>9.10.9</version>
+				<authors>Aidancbrady, Thommy101, Thiakil, pupnewfster, dizzyd</authors>
+			</Meta>
+		</Module>
+		<Module name="Mekanism: Generators" id="mekanismgenerators" depends="mekanism" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2996/533/MekanismGenerators-1.15.2-9.10.9.422.jar</URL>
+			<Size>817776</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>60c43c5d78db16fb2cb86773e4de1bf0</MD5>
+			<Meta>
+				<description>Generators module for Mekanism</description>
+				<version>9.10.9</version>
+				<authors>Aidancbrady, Thommy101, Thiakil, pupnewfster, dizzyd</authors>
+			</Meta>
+		</Module>
+		<Module name="Mekanism: Tools" id="mekanismtools" depends="mekanism" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2996/534/MekanismTools-1.15.2-9.10.9.422.jar</URL>
+			<Size>222173</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cb8f069dd87ac820c9cef513696f1267</MD5>
+			<Meta>
+				<description>Tools module for Mekanism</description>
+				<version>9.10.9</version>
+				<authors>Aidancbrady, Thommy101, Thiakil, pupnewfster, dizzyd</authors>
+			</Meta>
+		</Module>
+		<Module name="mgui" id="mgui" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2928/277/mgui-1.15.2-2.1.1.jar</URL>
+			<Size>52991</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8566a6ac027460a0adb499ac7a144c51</MD5>
+			<Meta>
+				<description>View library for minecraft mods.
+</description>
+				<version>2.1.1</version>
+				<authors>Mickelus</authors>
+			</Meta>
+		</Module>
+		<Module name="Minecolonies" id="minecolonies" depends="structurize" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3135/602/minecolonies-0.13.512-ALPHA-universal.jar</URL>
+			<Size>33237573</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9079c9628611c41266d1c502047ef602</MD5>
+			<Meta>
+				<license>GPL 3.0</license>
+				<description>MineColonies is a Colony/Town Simulator that adds many structures and NPC workers and guards that you control and put to work for you! Based around a townhall and village mechanic, there are numerous workers that can be added to your colony, building a busy and vibrant village/town/city within Minecraft. There is no coded limit to the number of NPC&apos;s at your disposal, so you can create a small efficient Village dedicated to a particular type of worker, or a sprawling metropolis with many workers. \n It&apos;s entirely up to you!&quot;,
+</description>
+				<version>0.13.512-ALPHA</version>
+				<authors>LDT Team</authors>
+			</Meta>
+		</Module>
+		<Module name="MixinBootstrap" id="mixinbootstrap" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3076/610/MixinBootstrap-1.0.5.jar</URL>
+			<Size>1066150</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bd76dd9467f3bc208d37b3c827e86c38</MD5>
+			<Meta>
+				<description>MixinBootstrap is a temporary way of booting Mixin in a MinecraftForge production environment.</description>
+				<version>1.0.5</version>
+				<authors>LX_Gaming</authors>
+			</Meta>
+		</Module>
+		<Module name="Morpheus" id="morpheus" depends="" side="SERVER">
+			<URL priority="0">https://edge.forgecdn.net/files/2898/972/Morpheus-1.15.2-4.2.50.jar</URL>
+			<Size>24547</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a53355fa3978361d6438f85a983c2475</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.</description>
+				<version>4.2.50</version>
+				<url>http://www.curse.com/mc-mods/Minecraft/morpheus</url>
+				<authors>Quetzi</authors>
+			</Meta>
+		</Module>
+		<Module name="Mounted Pearl" id="samsmountedpearl" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2875/914/mountedpearl-1.15.2-1.0.0.jar</URL>
+			<Size>6809</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>006c37a4fb6eb07683af80487a7ae5d3</MD5>
+			<Meta>
+				<credits>The Forge and FML guys</credits>
+				<description>When you throw an ender pearl while mounted, you now bring your mount with you.</description>
+				<version>1.0.1</version>
+				<url>http://www.curse.com/mc-mods/minecraft/232795-mounted-pearl-bring-your-mount-along-when-you</url>
+				<authors>Lothrazar</authors>
+			</Meta>
+		</Module>
+		<Module name="Mutant Beasts" id="mutantbeasts" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3083/386/MutantBeasts-1.15.2-1.0.8.jar</URL>
+			<Size>1280604</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>844e5cf71ebf13560c036ca3aaf91657</MD5>
+			<Meta>
+				<description>Mutant Beasts brings back the popular Mutant Creatures mod to modern Minecraft.</description>
+				<version>1.15.2-1.0.8</version>
+				<authors>Chumbanotz</authors>
+			</Meta>
+		</Module>
+		<Module name="Mystical Agradditions" id="mysticalagradditions" depends="cucumber mysticalagriculture" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2969/998/MysticalAgradditions-1.15.2-3.0.1.jar</URL>
+			<Size>95546</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fbb757c3552f31dece0907341a1086a1</MD5>
+			<Meta>
+				<description>  Grow all your resources!
+  </description>
+				<version>3.0.1</version>
+				<authors>BlakeBr0</authors>
+			</Meta>
+		</Module>
+		<Module name="Mystical Agriculture" id="mysticalagriculture" depends="cucumber" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3022/674/MysticalAgriculture-1.15.2-3.0.10.jar</URL>
+			<Size>1075055</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>84fdcff6eb07adb30581da21c0758df2</MD5>
+			<Meta>
+				<description>  Grow all your resources!
+  </description>
+				<version>3.0.10</version>
+				<authors>BlakeBr0</authors>
+			</Meta>
+		</Module>
+		<Module name="Mystical Lib" id="mysticallib" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3005/515/mysticallib-1.15.2-2.0.1.jar</URL>
+			<Size>133368</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>04a209e610457a90274d8d3369336e21</MD5>
+			<Meta>
+				<description>    A Library Mod for the Mystic Modding Team.
+    </description>
+				<version>2.0.1</version>
+				<authors>EpicSquid, Martacus, Nooby, and Davoleo.</authors>
+			</Meta>
+		</Module>
+		<Module name="Nature&apos;s Compass" id="naturescompass" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2893/530/NaturesCompass-1.15.2-1.8.5.jar</URL>
+			<Size>196348</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>97a1227575178418d3d54308ade81fa7</MD5>
+			<Meta>
+				<description>    Search for a biome and get information about it.
+    </description>
+				<version>1.8.5</version>
+				<authors>ChaosTheDude</authors>
+			</Meta>
+		</Module>
+		<Module name="NetherPortalFix" id="netherportalfix" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2943/661/NetherPortalFix_1.15.2-6.0.2.jar</URL>
+			<Size>109134</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45de04e0b9636796ced5e6476e890ff5</MD5>
+			<Meta>
+				<description>Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer.
+</description>
+				<version>6.0.2</version>
+				<authors>BlayTheNinth, CFGrafanaStats</authors>
+			</Meta>
+		</Module>
+		<Module name="Ore Excavation" id="oreexcavation" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2897/373/OreExcavation-1.7.151.jar</URL>
+			<Size>189698</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fec1f02b54f6443ed641426622012913</MD5>
+			<Meta>
+				<description>Allows players to mine whole veins of ore, cut down whole trees or any other tool based action in one go. Simple easy to understand configs are also provided for mod pack developers
+</description>
+				<version>1.7.151</version>
+				<authors>Funwayguy, darkosto</authors>
+			</Meta>
+		</Module>
+		<Module name="Overloaded" id="overloaded" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2958/042/Overloaded-1.15.2-0.0.87.jar</URL>
+			<Size>4421759</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7a654c0fc16f0b54aae1e3e4ee34ddcc</MD5>
+			<Meta>
+				<description>    Adds various complicated and tedious things that will minimize your need to destroy your server with your chunk sized arrays of machines.
+
+    Almost all balance values can be configured.
+    </description>
+				<version>1.15.2-0.0.87</version>
+				<authors>CJ Miller (cjm721)</authors>
+			</Meta>
+		</Module>
+		<Module name="Pam&apos;s HarvestCraft 2 Crops" id="pamhc2crops" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2958/622/pamhc2crops-1.15.2-1.0.5.jar</URL>
+			<Size>803510</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3ca721b55eb8218e6c3355df14d4f1f2</MD5>
+			<Meta>
+				<description>Pam&apos;s HarvestCraft 2 Crops adds all new crops to the game
+</description>
+				<version>1.0.5</version>
+				<authors>pamharvestcraft</authors>
+			</Meta>
+		</Module>
+		<Module name="Pam&apos;s HarvestCraft 2 Food Core" id="pamhc2foodcore" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3048/474/pamhc2foodcore-1.15.2-1.1.0.jar</URL>
+			<Size>314379</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d4e0e7477b927e1c10aa8342e6afdbc4</MD5>
+			<Meta>
+				<description>Pam&apos;s HarvestCraft 2 Food Core adds all new food to the game
+</description>
+				<version>1.1.0</version>
+				<authors>pamharvestcraft</authors>
+			</Meta>
+		</Module>
+		<Module name="Pam&apos;s HarvestCraft 2 Fruit Trees" id="pamhc2trees" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3033/262/pamhc2trees-1.15.2-1.0.7.jar</URL>
+			<Size>529459</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>848f0df3ff9d7a3b6b09ebcba2d99219</MD5>
+			<Meta>
+				<description>Pam&apos;s HarvestCraft 2 Fruit Trees adds all new fruit trees to the game
+</description>
+				<version>1.0.7</version>
+				<authors>pamharvestcraft</authors>
+			</Meta>
+		</Module>
+		<Module name="Pandoras Creatures" id="pandoras_creatures" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3061/255/pandoras_creatures-1.15.2-1.0.1.jar</URL>
+			<Size>1375696</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>541f67b66cbff4a917c4112bd4f07832</MD5>
+			<Meta>
+				<description>Pandoras Creatures is a Mod that aims to make your game experience harder. If you got bored of the normal mobs or just want to walk around and enjoy exploring the new creatures and how they affect the world, then this Mod is exactly what you need.
+</description>
+				<version>1.15.2-1.0.1</version>
+				<authors>andrew0030
+</authors>
+			</Meta>
+		</Module>
+		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3000/903/Patchouli-1.15.2-1.2-35.jar</URL>
+			<Size>533222</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d69a5728a98f06d4d4e077751bb9270b</MD5>
+			<Meta>
+				<description>Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers
+</description>
+				<version>1.15.2-1.2-35</version>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Performant" id="performant" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3126/334/performant-1.15-3.14m.jar</URL>
+			<Size>196572</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2cc995019502c943848d46c9f3ec5ede</MD5>
+			<Meta>
+				<description>Vanilla mod with the aim to improve vanilla performance in certain areas.
+</description>
+				<version>3.14m</version>
+				<authors>someaddon</authors>
+			</Meta>
+		</Module>
+		<Module name="Phosphor" id="phosphor" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2919/811/phosphor-forge-mc1.15.2-0.5.2+build.4.jar</URL>
+			<Size>45363</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bc5d52e419292e8ad0d2741006f7d0f5</MD5>
+			<Meta>
+				<description>Phosphor is an optimization mod for Minecraft which improves the performance of the lighting engine, resulting in significantly reduced world generation times and improved server tick rates.
+
+You can help support development through making a pledge to my Patreon: https://patreon.com/jellysquid
+
+You can find the source code under the GNU LGPLv3 on GitHub: https://github.com/jellysquid3/phosphor-forge
+</description>
+				<version>0.5.2+build4.4</version>
+				<authors>JellySquid</authors>
+			</Meta>
+		</Module>
+		<Module name="Placebo" id="placebo" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2996/124/Placebo-1.15.2-3.1.0.jar</URL>
+			<Size>95520</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>28a95cecf60b9e597b8006b938e43053</MD5>
+			<Meta>
+				<description>1 (one) library boi
+</description>
+				<version>3.1.0</version>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="PneumaticCraft: Repressurized" id="pneumaticcraft" depends="patchouli" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3127/201/pneumaticcraft-repressurized-1.15.2-1.5.3-89.jar</URL>
+			<Size>6289439</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>190b9dd037770c437c98ccf3785d823d</MD5>
+			<Meta>
+				<description>PneumaticCraft: Repressurized: doing cool stuff with compressed air.</description>
+				<version>1.15.2-1.5.3-89</version>
+				<authors>desht_08, minemaarten2</authors>
+			</Meta>
+		</Module>
+		<Module name="Portality" id="portality" depends="titanium" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2873/803/portality-1.15.2-2.1.2-aaa257f.jar</URL>
+			<Size>394633</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>68c9eadac786c5747bb5977402316d50</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Thinking through portals</description>
+				<version>2.1.2</version>
+				<url></url>
+				<authors>Buuz135</authors>
+			</Meta>
+		</Module>
+		<Module name="Powah" id="powah" depends="lollipop" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3024/179/Powah-1.15.2-1.1.15.jar</URL>
+			<Size>1008899</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5fec8809779d54fc836e00f31cf5efe4</MD5>
+			<Meta>
+				<description>Various ways to generate, store and transmit FE power.
+</description>
+				<version>1.1.15</version>
+				<authors>owmii</authors>
+			</Meta>
+		</Module>
+		<Module name="Quark" id="quark" depends="autoreglib" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2980/651/Quark-r2.1-245.jar</URL>
+			<Size>5424185</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>25226ee071db655177ecd165f3f5d722</MD5>
+			<Meta>
+				<description>Small things.
+</description>
+				<version>r2.1-245</version>
+				<authors>Vazkii, Wiiv, WireSegal, MCVinnyq</authors>
+			</Meta>
+		</Module>
+		<Module name="Quark Oddities" id="quarkoddities" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2914/445/QuarkOddities-1.15.2.jar</URL>
+			<Size>1852</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2b50248564c9a94ea9b56c97fd0e7563</MD5>
+			<Meta>
+				<description>Crazier Small things.
+</description>
+				<version>1.15.2</version>
+				<authors>Vazkii, Wiiv, WireSegal, MCVinnyq</authors>
+			</Meta>
+		</Module>
+		<Module name="ReAuth" id="reauth" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2950/766/ReAuth-1.14-1.15-3.8.1.jar</URL>
+			<Size>35214</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7a2655c439bb612f744afbe1bb3e56f7</MD5>
+			<Meta>
+				<description>A Mod to renew your Session</description>
+				<version>3.8.1</version>
+				<authors>TechnicianLP</authors>
+			</Meta>
+		</Module>
+		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3015/904/randompatches-1.15.2-1.22.1.1.jar</URL>
+			<Size>214939</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4995671d1c505866ea9e5238ffdc3588</MD5>
+			<Meta>
+				<description>RandomPatches, a bunch of miscellaneous patches for Minecraft.
+</description>
+				<version>1.22.1.1</version>
+				<authors>TheRandomLabs</authors>
+			</Meta>
+		</Module>
+		<Module name="Refined Storage" id="refinedstorage" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3004/050/refinedstorage-1.8.8.jar</URL>
+			<Size>1890686</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e192ef0720f37e69d830b906fbc8cf65</MD5>
+			<Meta>
+				<description>An elegant solution to your hoarding problem
+</description>
+				<version>1.8.8</version>
+				<authors>Refined Mods</authors>
+			</Meta>
+		</Module>
+		<Module name="Refined Storage Addons" id="refinedstorageaddons" depends="refinedstorage" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3005/715/refinedstorageaddons-0.6.3.jar</URL>
+			<Size>28802</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>230ba0dd1790914c795e567d5c479781</MD5>
+			<Meta>
+				<description>An addon mod for Refined Storage
+</description>
+				<version>0.6.3</version>
+				<authors>Refined Mods</authors>
+			</Meta>
+		</Module>
+		<Module name="Reliquary" id="xreliquary" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3072/778/Reliquary-1.15.2-1.3.4.1018.jar</URL>
+			<Size>1330247</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cc77d4d81f617e1d53cf95f21207e38d</MD5>
+			<Meta>
+				<description>Two words: magical swag. Oh, and a gun.
+</description>
+				<version>1.15.2-1.3.4.1018</version>
+				<authors>P3pp3rF1y, yulife_curse</authors>
+			</Meta>
+		</Module>
+		<Module name="Repurposed Structures" id="repurposed_structures" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2984/064/repurposedstructures-1.15.2-1.7.2.jar</URL>
+			<Size>1582577</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ce79b5e8de673bc87416e118973b2583</MD5>
+			<Meta>
+				<description>Taking existing vanilla structures and changing them up for extra variety!
+</description>
+				<version>1.15.2-1.7.2</version>
+				<authors>TelepathicGrunt</authors>
+			</Meta>
+		</Module>
+		<Module name="RFToolsBase" id="rftoolsbase" depends="mcjtylib" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3131/242/rftoolsbase-1.15-1.1.9.jar</URL>
+			<Size>405062</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>090ad0a78f53f7ca56ad4d0df1022d75</MD5>
+			<Meta>
+				<description>The base class for all RFTools tech mods (and XNet/Deep Resonance)
+</description>
+				<version>1.1.9</version>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="RFToolsBuilder" id="rftoolsbuilder" depends="mcjtylib rftoolsbase" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3131/251/rftoolsbuilder-1.15-2.1.15.jar</URL>
+			<Size>510338</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6c4b1477b618925655053b091d01e285</MD5>
+			<Meta>
+				<description>Everything related to the builder
+</description>
+				<version>2.1.15</version>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="RFToolsControl" id="rftoolscontrol" depends="mcjtylib rftoolsbase" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3096/836/rftoolscontrol-1.15-3.0.9.jar</URL>
+			<Size>614687</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b92ded107b025f2420ab3be4091ea85d</MD5>
+			<Meta>
+				<description>Visual programming language for automation
+</description>
+				<version>3.0.9</version>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="RFToolsPower" id="rftoolspower" depends="mcjtylib rftoolsbase" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3087/304/rftoolspower-1.15-2.2.6.jar</URL>
+			<Size>566422</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5c32974769f87fdba9d8d049d00ea46e</MD5>
+			<Meta>
+				<description>Everything related to power generation
+</description>
+				<version>2.2.6</version>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="RFToolsStorage" id="rftoolsstorage" depends="mcjtylib rftoolsbase" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3131/253/rftoolsstorage-1.15-1.1.12.jar</URL>
+			<Size>364468</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>40e216447447f08cce2e4c1386b43d44</MD5>
+			<Meta>
+				<description>Everything related to storage
+</description>
+				<version>1.1.12</version>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="RFToolsUtility" id="rftoolsutility" depends="mcjtylib rftoolsbase" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3131/248/rftoolsutility-1.15-2.1.18.jar</URL>
+			<Size>1432070</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a47f2b27643dbb64ab8d8e1ce8ba3603</MD5>
+			<Meta>
+				<description>Generic RFTools utilities
+</description>
+				<version>2.1.18</version>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="Ring of Enderchest" id="ring_of_enderchest" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2982/421/RingOfEnderchest-1.15.2-1.1.34.jar</URL>
+			<Size>11133</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e38b1186142d7b623696f7a0e479e10e</MD5>
+			<Meta>
+				<description>A simple ring that allows for access to player Enderchest on the go
+</description>
+				<version>1.1.31</version>
+				<authors>kwpugh</authors>
+			</Meta>
+		</Module>
+		<Module name="Scalable Cat&apos;s Force" id="scalablecatsforce" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2954/109/ScalableCatsForce-2.13.2-build-2-with-library.jar</URL>
+			<Size>14251124</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2bb8894ee37f273dc8053059cfaf8de3</MD5>
+			<Meta>
+				<description>A library for mods written in Scala.</description>
+				<version>2.13.2-build2</version>
+				<authors>Kotori316</authors>
+			</Meta>
+		</Module>
+		<Module name="Silent Lib" id="silentlib" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3003/984/SilentLib-1.15.2-4.6.6+59.jar</URL>
+			<Size>237272</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5b575adcd5c335b9160aea582a7d772d</MD5>
+			<Meta>
+				<description>    Shared library for Silent&apos;s mods
+    </description>
+				<version>4.6.6+59</version>
+				<authors>SilentChaos512</authors>
+			</Meta>
+		</Module>
+		<Module name="Silent&apos;s Mechanisms" id="silents_mechanisms" depends="silentlib" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3011/877/SilentMechanisms-1.15.2-0.8.0+59.jar</URL>
+			<Size>1227206</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4cbe576d42f2d95bbe90395d4e6008ba</MD5>
+			<Meta>
+				<description>    Simple machines and energy-generating blocks
+    </description>
+				<version>0.8.0+59</version>
+				<authors>SilentChaos512, naterbobber</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Chunk Loaders" id="simplechunkloaders" depends="valkyrielib" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2874/248/simplechunkloaders-1.15.2-1.0.2.0.jar</URL>
+			<Size>28728</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b7d954962afaa354a3fa6fae93937a47</MD5>
+			<Meta>
+				<description>This is a long form description of the mod. You can write whatever you want here
+
+Have some lorem ipsum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</description>
+				<version>1.0.2.0</version>
+				<authors>Love, Cheese and small house plants</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Diving Gear" id="simpledivegear" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2891/530/SimpleDivingGear-4.0.1 mc 1.15.2.jar</URL>
+			<Size>58398</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de950dec553999e6e85f32c090853a7a</MD5>
+			<Meta>
+				<description>A simple mod to add diving gear to make working in fluids easier.
+</description>
+				<version>4.0.1</version>
+				<authors>Rohzek, CheshireRose</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Storage Network" id="storagenetwork" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2990/699/SimpleStorageNetwork-1.15.2-1.0.1.jar</URL>
+			<Size>335681</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f9cb5c7ac786b9901807d6b7ed872c66</MD5>
+			<Meta>
+				<description>Storage Network to connect inventories to search and craft
+</description>
+				<version>1.0.1</version>
+				<authors>Lothrazar, MrRiegel</authors>
+			</Meta>
+		</Module>
+		<Module name="Solar Flux Reborn" id="solarflux" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3015/675/SolarFluxReborn-1.15.2-15.2.3.jar</URL>
+			<Size>238571</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bfcf5f1df98fe89e6a7c7918c88c7da2</MD5>
+			<Meta>
+				<description>Solar Flux Reborn is aimed at implementing easy-to-use solar panels and providing modpack devs the ability to create their own panels with ease!
+</description>
+				<version>15.2.3</version>
+				<authors>Zeitheron</authors>
+			</Meta>
+		</Module>
+		<Module name="spark" id="spark" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2876/089/spark-forge.jar</URL>
+			<Size>2392041</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1859fa8e51749498df3735db87b87db6</MD5>
+			<Meta>
+				<description>spark is a performance profiling plugin based on sk89q&apos;s WarmRoast profiler</description>
+				<version>1.3.2</version>
+				<authors>lucko</authors>
+			</Meta>
+		</Module>
+		<Module name="Storage Drawers" id="storagedrawers" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3092/975/StorageDrawers-1.15.2-7.0.3.jar</URL>
+			<Size>487601</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2b11fc6740c9ebadbb2ef353121f8edd</MD5>
+			<Meta>
+				<description>    Multi-drawer storage blocks for quick storage and retrieval.
+    </description>
+				<version>1.15.2-7.0.3</version>
+				<authors>Texelsaur</authors>
+			</Meta>
+		</Module>
+		<Module name="Structurize" id="structurize" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3074/054/structurize-0.13.94-ALPHA-universal.jar</URL>
+			<Size>5154053</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>07907b9395fad05e7f21f93f622e574c</MD5>
+			<Meta>
+				<description>An astonishing way to copy&amp;paste structures, cookies included :)
+
+Allows you to:
+ - save structures of your choice into a file of small size
+ - load them back and place anywhere anytime
+ - also upload them and share between others
+ - create various shapes using math formula
+ - and many other nice things a great builder would love to have
+</description>
+				<version>0.13.94-ALPHA</version>
+				<authors>LDT Team</authors>
+			</Meta>
+		</Module>
+		<Module name="SwingThroughGrass" id="swingthroughgrass" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3083/277/swingthroughgrass-1.15.2-1.4.1.jar</URL>
+			<Size>22676</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1d82880a5b0c470501cd7f24d8d06358</MD5>
+			<Meta>
+				<description>Don&apos;t let the grass be between you and your prey!</description>
+				<version>1.4.1</version>
+				<authors>Exidex</authors>
+			</Meta>
+		</Module>
+		<Module name="Tesseract" id="tesseract" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3108/721/tesseract-1.0.15-mc1.15.jar</URL>
+			<Size>401921</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>94b379d38d482cbf61832f5baaa48a0b</MD5>
+			<Meta>
+				<description>Tesseract allows you to transport Items, Fluid and Energy. Tesseracts work at any distance and even across dimensions! Use multiple channels to have different groups of Tesseracts!</description>
+				<version>1.0.15</version>
+				<authors>SuperMartijn642</authors>
+			</Meta>
+		</Module>
+		<Module name="Tetra" id="tetra" depends="mgui curios botania" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3023/406/tetra-1.15.2-2.18.1.jar</URL>
+			<Size>2075503</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>07400f24557fe320d0efac486c965f8f</MD5>
+			<Meta>
+				<description>Tetra revolves around modular items and attempts to blend it together with other concepts such as adventure and technology.</description>
+				<version>2.18.1</version>
+				<authors>Mickelus</authors>
+			</Meta>
+		</Module>
+		<Module name="The Endergetic Expansion" id="endergetic" depends="abnormals_core" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2989/095/The-Endergetic-Expansion-1.15.2-v1.3.2.jar</URL>
+			<Size>7083211</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7c616824316865b0144c0c493b683d1e</MD5>
+			<Meta>
+				<description>Ever since the end was first introduced to the game it&apos;s always been a dull place; and it has great potential to be something greater. This mod expands the end greatly by adding tons of new biomes, mobs, bosses, items, blocks, etc to the end! Venture to new places like the Poise Forest or explore old places like the chorus biome which have been revamped!</description>
+				<version>1.3.2</version>
+				<authors>SmellyModder, Endergized, Timinations, Minecraft Abnormals</authors>
+			</Meta>
+		</Module>
+		<Module name="The One Probe" id="theoneprobe" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3040/732/theoneprobe-1.15-2.0.7.jar</URL>
+			<Size>306949</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2536ef8ceb6ea73f5a087360358b87c7</MD5>
+			<Meta>
+				<description>The One Probe lets you examine the block that you are looking at. Having a
+probe in your hand lets you examine it better but you can also make this
+probe required if you so desire.
+</description>
+				<version>2.0.7</version>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="Titanium" id="titanium" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2980/252/titanium-1.15.2-2.4.2.jar</URL>
+			<Size>546613</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>670e893e75e7d7d9a1aa35820d643c26</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Library mod for Horizon Studio.</description>
+				<version>2.4.2</version>
+				<url></url>
+				<authors>Horizon Studio, Coded</authors>
+			</Meta>
+		</Module>
+		<Module name="Torch Slab Mod" id="torchslabmod" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2992/051/torchslabmod-1.15.2_v1.7.0.jar</URL>
+			<Size>535710</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d7fba0b4afed4735fec590579c482ed5</MD5>
+			<Meta>
+				<description>A mod that allows the placement of torches &amp; lanterns onto slab blocks, the sides of slab blocks, the top/bottom half of wall blocks as well as on top of lily pads. Lanterns can also now be placed on the side of fence blocks. For mc versions 1.15
+
+</description>
+				<version>1.7.0</version>
+				<authors>EndlesNights</authors>
+			</Meta>
+		</Module>
+		<Module name="Torchmaster" id="torchmaster" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3017/958/torchmaster-2.2.2.jar</URL>
+			<Size>94030</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>70672bcbc8111747acfcd598a489e01e</MD5>
+			<Meta>
+				<description>Bla? TODO: Add desc
+</description>
+				<version>2.2.2</version>
+				<authors>xalcon</authors>
+			</Meta>
+		</Module>
+		<Module name="Towers Of the Wild" id="towers_of_the_wild" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2981/445/towers_of_the_wild-1.15.2-1.2.0.jar</URL>
+			<Size>940864</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8f4b01b806ac227d5f95ca6abfea9972</MD5>
+			<Meta>
+				<description>Cool towers to make exploring a bit more fun !
+</description>
+				<version>1.15.2-1.2.0</version>
+				<authors>idrae_</authors>
+			</Meta>
+		</Module>
+		<Module name="Traverse" id="traverse" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2962/158/traverse-1.15.2-3.2.0.jar</URL>
+			<Size>155452</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>71ab79b0bfda2075be50a6a0e766deaa</MD5>
+			<Meta>
+				<description>A collection of vanilla style biomes to spruce up your world.
+</description>
+				<version>3.2.0</version>
+				<authors>Prospector, EpicSquid, Androsa, Nooby</authors>
+			</Meta>
+		</Module>
+		<Module name="TrinityWeapons" id="trinity" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2875/803/TrinityWeapons-1.15.2-1.4.1.jar</URL>
+			<Size>207822</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cfc19b45834ea8012d3b6328851d4d9b</MD5>
+			<Meta>
+				<description>
+TrinityWeapons adds tons of new weapons into Minecraft! From ancient weapons from the cave men to the present day(without guns)!
+
+</description>
+				<version>1.4.1</version>
+				<authors>Nathan (Thermionic)</authors>
+			</Meta>
+		</Module>
+		<Module name="U Team Core" id="uteamcore" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3030/627/u_team_core-1.15.2-3.0.2.169.jar</URL>
+			<Size>451990</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9b3e0bafd0b5d5cc53732c82330dfe27</MD5>
+			<Meta>
+				<description>This library contains many useful modding stuff!</description>
+				<version>3.0.2.169</version>
+				<authors>HyCraftHD</authors>
+			</Meta>
+		</Module>
+		<Module name="Upgrade Aquatic" id="upgrade_aquatic" depends="abnormals_core" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2997/601/Upgrade-Aquatic-1.15.2-1.7.1.jar</URL>
+			<Size>2608394</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4f83d121c20a3ec554c1cee614d34fd8</MD5>
+			<Meta>
+				<description>A mod that improves upon the content of 1.13 Update Aquatic.</description>
+				<version>1.7.1</version>
+				<authors>SmellyModder, Bagel, Cameron, Five</authors>
+			</Meta>
+		</Module>
+		<Module name="Useful Backpacks" id="usefulbackpacks" depends="uteamcore" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3048/054/useful_backpacks-1.15.2-1.10.3.77.jar</URL>
+			<Size>100968</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>008bf80346a78bb1bc2f51e5675efdd1</MD5>
+			<Meta>
+				<description>This mod adds cool new backpacks to your game.</description>
+				<version>1.10.3.77</version>
+				<authors>HyCraftHD</authors>
+			</Meta>
+		</Module>
+		<Module name="Valhelsia Structures" id="valhelsia_structures" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2972/754/valhelsia_structures-15.0.3a.jar</URL>
+			<Size>628490</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>564c440405735112df1868dd4d4e898d</MD5>
+			<Meta>
+				<description>Valhelsia Structures is mod that generates new structures such as abandoned buildings and dungeons.
+</description>
+				<version>15.0.3a</version>
+				<authors>Valhelsia Team</authors>
+			</Meta>
+		</Module>
+		<Module name="ValkyrieLib" id="valkyrielib" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2877/675/valkyrielib-1.15.2-3.0.2.1.jar</URL>
+			<Size>682559</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>faca3f1097f868546e8f2cccd9dd159e</MD5>
+			<Meta>
+				<description>This is a lib mod used by ValkyrieofNight and the VMG teams mods.
+</description>
+				<version>3.0.2.1</version>
+				<authors>ValkyrieofNight</authors>
+			</Meta>
+		</Module>
+		<Module name="Vampirism" id="vampirism" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3137/099/Vampirism-1.15.2-1.7.0.jar</URL>
+			<Size>6935867</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2b002399716963ef7227e223d128ccd5</MD5>
+			<Meta>
+				<description>Allows you to become a vampire</description>
+				<version>1.7.0</version>
+				<authors>Maxanier, Cheaterpaul</authors>
+			</Meta>
+		</Module>
+		<Module name="Vanilla+ Tools" id="supertools" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2876/901/supertools-1.15.2-1.0.jar</URL>
+			<Size>43836</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d5b18bd6d9dd5b83815f00265662dcbc</MD5>
+			<Meta>
+				<description>3x3 Mining and Digging tools in Vanilla flavor
+</description>
+				<version>1.0</version>
+				<authors>LDT Team</authors>
+			</Meta>
+		</Module>
+		<Module name="Venture" id="venture" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2931/676/venture-1.0.0-1.15.2.jar</URL>
+			<Size>34816</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a81a2318c6103d506b5dd596039aa8a0</MD5>
+			<Meta>
+				<description>A mod that builds upon adventuring in Minecraft</description>
+				<version>1.0.0</version>
+				<authors>MrCrayfish</authors>
+			</Meta>
+		</Module>
+		<Module name="WAWLA" id="wawla" depends="bookshelf waila" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3008/867/WAWLA-1.15.2-3.0.4.jar</URL>
+			<Size>24264</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a741e901fde3bc04efc1a04a75448aef</MD5>
+			<Meta>
+				<description>Adds pots for growing your crops.
+</description>
+				<version>3.0.4</version>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="Waystones" id="waystones" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2991/235/Waystones_1.15.2-6.0.2.jar</URL>
+			<Size>194641</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>39d9390a1372deda168dec28a217205c</MD5>
+			<Meta>
+				<description>Teleport back to activated waystones. For Survival, Adventure or Servers.
+</description>
+				<version>6.0.2</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Worley&apos;s Caves" id="worleycaves" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2938/978/worleycaves-1.15.2-1.6.0.jar</URL>
+			<Size>65722</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>822f8f48bc1dc1c47ebbd692c6149fb6</MD5>
+			<Meta>
+				<description>	Cave generation with Worley noise
+	</description>
+				<version>1.15.2-1.6.0</version>
+				<authors>SuperFluke and booleanbyte</authors>
+			</Meta>
+		</Module>
+		<Module name="YUNG&apos;s Better Mineshafts" id="bettermineshafts" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3041/496/BetterMineshaftsForge-1.15.2-1.3.1.jar</URL>
+			<Size>283478</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>82c43d9cbe0049734cc60ec3af256ebf</MD5>
+			<Meta>
+				<description>A long-awaited and much-needed abandoned mineshaft overhaul!</description>
+				<version>1.15.2-1.3.1</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+		</Module>
+		<Module name="Corail Tombstone" id="tombstone" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3133/854/tombstone-4.6.0-1.15.2.jar</URL>
+			<Size>1059162</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>52712408241c7d2a79252a5a9b8fa0f4</MD5>
+			<Meta>
+				<description>Corail Tombstone keeps you from losing your belongings on death, with many features of survivability and dimensional teleportation, in a medieval fantasy atmosphere related to the grave&apos;s souls.
+</description>
+				<version>4.6.0</version>
+				<authors>Corail31</authors>
+			</Meta>
+		</Module>
+		<Module name="XNet" id="xnet" depends="mcjtylib rftoolsbase" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3131/257/xnet-1.15-2.1.14.jar</URL>
+			<Size>537392</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4dac5cbb1bcc6a8f84d929afac374b36</MD5>
+			<Meta>
+				<credits>McJty</credits>
+				<description>Advanced Networking</description>
+				<version>2.1.14</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>

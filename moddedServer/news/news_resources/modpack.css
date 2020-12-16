@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS for Drehmal News Page */
+:root {
+    /*--background-image:url(https://github.com/edwardg117/Drehmal-for-Geronimo/raw/master/news/drehmal_resources/bgtest2.jpg);*/
+    --theme-colour:green;
+    --background-colour:rgb(34, 34, 34);
+    --text-colour:aliceblue;
+    --text-backdrop-colour:rgba(0, 0, 0, 0.75);
+}
+h1 {
+    color:var(--text-colour);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    text-align:center;
+    /*background:rgb(0, 0, 0);*/
+}
+
+h2 {
+    color:var(--text-colour);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:26px;
+    text-align:left;
+    /*background:rgb(0, 0, 0);*/
+}
+
+h4 {
+    color:var(--text-colour);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    /*background:rgb(0, 0, 0);*/
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+p1 {
+    color:var(--text-colour);
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: rgba(0, 0, 0, 0.75);
+    display: block;*/
+}
+
+td1 {
+    background-color: var(--text-backdrop-colour);
+    display: block;
+    margin: 0%;
+}
+
+body {
+    background:var(--background-image) scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: var(--background-colour);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+}
+
+.navBar {
+    color: var(--theme-colour);
+    background-color: var(--background-colour);
+    font-size: 16pt; margin-left: auto; margin-right: auto;
+}
