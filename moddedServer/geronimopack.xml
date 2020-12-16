@@ -711,7 +711,7 @@ Check out the config to change the decay rate!
 		<Module name="Waila" id="waila" depends="" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/2880/069/Hwyla-forge-1.10.8-B72_1.15.2.jar</URL>
 			<Size>174787</Size>
-			<Required isDefault="true">false</Required>
+			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>637faaca8787a2de370be1b5dea4de54</MD5>
 			<Meta>
@@ -1495,6 +1495,12 @@ It contains libraries for 3D math and transformations, model rendering, packets,
 				<authors>andrew0030
 </authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/edwardg117/Drehmal-for-Geronimo/master/moddedServer/config/pandoras_creatures-client.toml</URL>
+				<Path>config/pandoras_creatures-client.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>b3c26fb8aff5e3760eef67c11ef10052</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/3000/903/Patchouli-1.15.2-1.2-35.jar</URL>
@@ -1603,6 +1609,12 @@ You can find the source code under the GNU LGPLv3 on GitHub: https://github.com/
 				<version>r2.1-245</version>
 				<authors>Vazkii, Wiiv, WireSegal, MCVinnyq</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/edwardg117/Drehmal-for-Geronimo/master/moddedServer/config/quark-common.toml</URL>
+				<Path>config/quark-common.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>0f03d4830011b18d983a22940f679017</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Quark Oddities" id="quarkoddities" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/2914/445/QuarkOddities-1.15.2.jar</URL>
@@ -2142,6 +2154,12 @@ TrinityWeapons adds tons of new weapons into Minecraft! From ancient weapons fro
 				<version>1.7.0</version>
 				<authors>Maxanier, Cheaterpaul</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/edwardg117/Drehmal-for-Geronimo/master/moddedServer/config/vampirism-common.toml</URL>
+				<Path>config/vampirism-common.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>0cfb7ea8bddc29cc9a0f4344102141d0</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Vanilla+ Tools" id="supertools" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/2876/901/supertools-1.15.2-1.0.jar</URL>
