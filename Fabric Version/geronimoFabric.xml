@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="geronimofabric" abstract="false" name="Geronimo Fabric" newsUrl="https://htmlpreview.github.io/?https://github.com/edwardg117/Drehmal-for-Geronimo/blob/master/Fabric%20Version/news/Modpack.html" iconUrl="https://raw.githubusercontent.com/edwardg117/Drehmal-for-Geronimo/master/Fabric%20Version/news/news_resources/packicon.jpg" version="1.16.5" generateList="false" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.16.5%2Bbuild.4&amp;loader=0.11.1">fabric</Import>
+		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3183/643/fabric-api-0.30.0+1.16.jar</URL>
+			<Size>906574</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>255a0a1c349282887d3bceb00f77acfb</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Core API module providing key hooks and intercompatibility features.</description>
+				<version>0.30.0+1.16</version>
+				<authors>FabricMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Lithium" id="lithium" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3190/573/lithium-fabric-mc1.16.5-0.6.3.jar</URL>
+			<Size>314319</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>51b9e5cfb796c1238ea674851807c0ac</MD5>
+			<Meta>
+				<description>empty</description>
+				<version>empty</version>
+				<authors>empty</authors>
+			</Meta>
+		</Module>
+		<Module name="Phosphor" id="phosphor" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3141/950/phosphor-fabric-mc1.16.3-0.7.0+build.10.jar</URL>
+			<Size>91028</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4fb7a4b06cd53947432e65e3a8c9a5ce</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Phosphor is an optimization mod for Minecraft which improves the performance of the lighting engine, resulting in significantly reduced world generation times and improved server tick rates. You can help feed me and support development on Patreon, gaining some special perks in the process! Any amount of support helps a ton. https://www.patreon.com/jellysquid</description>
+				<version>0.7.0+build.10</version>
+				<authors>JellySquid, PhiPro</authors>
+			</Meta>
+		</Module>
+		<Module name="Sodium" id="sodium" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3067/101/sodium-fabric-mc1.16.3-0.1.0.jar</URL>
+			<Size>418984</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>12fe6974813ae5d514af57c3ac679966</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Sodium is an free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.</description>
+				<version>0.1.0</version>
+				<authors>JellySquid</authors>
+			</Meta>
+		</Module>
+		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3197/918/physics-mod-1.3.3_fabric.jar</URL>
+			<Size>17362123</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ff0f56d1ca9017da491ff68c765dfc37</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
+				<version>1.0.0</version>
+				<authors>Haubna</authors>
+			</Meta>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2987/255/appleskin-mc1.16-fabric-1.0.11.jar</URL>
+			<Size>29865</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>32e486093afa3886557865113b59b0a0</MD5>
+			<Meta>
+				<license>Unlicense</license>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.11</version>
+				<authors>squeek502</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3190/740/Xaeros_Minimap_21.2.0.2_Fabric_1.16.5.jar</URL>
+			<Size>715042</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3c69b20c1d9564dfe94bb09dd3000339</MD5>
+			<Meta>
+				<description>empty</description>
+				<version>empty</version>
+				<authors>empty</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s World Map" id="xaerosworldmap" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3190/742/XaerosWorldMap_1.11.11.2_Fabric_1.16.5.jar</URL>
+			<Size>402114</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a2280d8ca33b8ffa8bdcb3b94bb83557</MD5>
+			<Meta>
+				<description>empty</description>
+				<version>empty</version>
+				<authors>empty</authors>
+			</Meta>
+		</Module>
+		<Module name="WorldEdit" id="worldedit" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3172/947/worldedit-fabric-mc1.16.3-7.2.2-dist.jar</URL>
+			<Size>4244958</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d71806353712270812c54dad10d7cae9</MD5>
+			<Meta>
+				<license>GPL3</license>
+				<description>WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single- and multi-player.</description>
+				<version>7.2.2+fc3c499</version>
+				<authors>sk89q, wizjany, TomyLobo, octylFractal, Me4502</authors>
+			</Meta>
+		</Module>
+		<Module name="Mod Menu" id="modmenu" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3199/797/modmenu-1.16.7.jar</URL>
+			<Size>240808</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7c308e0d339bcb84702dff96af5e1e8e</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds a mod menu to view the list of mods you have installed.</description>
+				<version>1.16.7</version>
+				<authors>Prospector, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="FallingTree" id="falling_tree" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3167/541/FallingTree-Fabric-1.16.5-rc1-2.10.0.jar</URL>
+			<Size>788673</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d1d7689735ff93d0086415a88982a3a2</MD5>
+			<Meta>
+				<license>GPL-3.0</license>
+				<description>Change the way you cut trees.</description>
+				<version>2.10.0</version>
+				<authors>RakSrinaNa</authors>
+			</Meta>
+		</Module>
+		<Module name="CleanCut" id="cleancut" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/2994/761/cleancut-mc1.16-2.1-fabric.jar</URL>
+			<Size>46411</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4369a9de35189a05b9041e5fecc79c6e</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Fight enemies back through grass and other similar obstructions!</description>
+				<version>mc1.16-2.1-fabric</version>
+				<authors>Rongmario</authors>
+			</Meta>
+		</Module>
+		<Module name="Roughly Enough Items" id="roughlyenoughitems" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3198/958/RoughlyEnoughItems-5.9.172.jar</URL>
+			<Size>1549725</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e844d6066e76f034e8f5ec259613e154</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>To allow players to view items and recipes.</description>
+				<version>5.9.172</version>
+				<authors>shedaniel</authors>
+			</Meta>
+		</Module>
+		<Module name="Terrestria" id="terrestria" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3193/392/terrestria-2.2.0.jar</URL>
+			<Size>1796416</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b3e95fb6a925ec6429562f903ea71928</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>A mod enhancing the detail of Minecraft with unique and vibrant biomes. Inspired by ExtrabiomesXL.</description>
+				<version>2.2.0</version>
+				<authors>coderbot16, NeusFear, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Traverse" id="traverse" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3179/058/traverse-3.3.1.jar</URL>
+			<Size>1659873</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>07f58e99dd0aa2512ed3744f6129f229</MD5>
+			<Meta>
+				<license>LGPL-3.0</license>
+				<description>A biome expansion mod that embraces the simplistic nature of Minecraft biomes</description>
+				<version>3.3.1</version>
+				<authors>Prospector, NeusFear, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Cinderscapes" id="cinderscapes" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3189/140/cinderscapes-1.3.3.jar</URL>
+			<Size>13573746</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b6ba2fbb9b412ce28cb5ec98cccaf374</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>An expansion of Minecraft&apos;s Nether biomes!</description>
+				<version>1.3.3</version>
+				<authors>Vaerian, NeusFear, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Campanion" id="campanion" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3189/338/campanion-1.3.3.jar</URL>
+			<Size>795432</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0cc734ba936e436e6c5992879be6b206</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>A camping companion that adds items and utilities to improve your life away from home.</description>
+				<version>1.3.3</version>
+				<authors>Wyn Price, NeusFear, Prospector, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Dank Storage" id="dankstorage" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3124/827/dankstorage-1.9a-1.16.3.jar</URL>
+			<Size>169710</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c5430b863bed51110d7bdceda93c9c23</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>It&apos;s a backpack, no it&apos;s a chest, no it&apos;s dank storage</description>
+				<version>1.9a-1.16.3</version>
+				<authors>Tfarcenim</authors>
+			</Meta>
+		</Module>
+		<Module name="Trap Expansion" id="trapexpansion" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3029/797/trapexpansion-1.16.2-1.3.3.jar</URL>
+			<Size>113290</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>344023f7126e7fd297091a090e55ef53</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Trap Expansion Adds Some Vanilla Style Traps!</description>
+				<version>1.3.2</version>
+				<authors>Lemonszz, Shnupbups</authors>
+			</Meta>
+		</Module>
+		<Module name="Fabric Language Kotlin" id="fabric-language-kotlin" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3136/960/fabric-language-kotlin-1.4.21+build.1.jar</URL>
+			<Size>5606038</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>642cd3f396cac31b035528c3019091ae</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Fabric language module for Kotlin.</description>
+				<version>1.4.21+build.1</version>
+				<authors>Nikky</authors>
+			</Meta>
+		</Module>
+		<Module name="Adorn" id="adorn" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3177/342/Adorn-1.13.0+1.16.5.jar</URL>
+			<Size>4032808</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f79a92bd48bc7c1beedcdfca4941c187</MD5>
+			<Meta>
+				<description>empty</description>
+				<version>empty</version>
+				<authors>empty</authors>
+			</Meta>
+		</Module>
+		<Module name="Auth Me" id="authme" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3073/169/authme-1.16.3-1.4.0.jar</URL>
+			<Size>590330</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8eecf56e700f1f5234009f238c5a4415</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Authenticate yourself in Minecraft and re-validate your session.</description>
+				<version>1.4.0</version>
+				<authors>Axieum</authors>
+			</Meta>
+		</Module>
+		<Module name="YUNG&apos;s Better Caves" id="bettercaves" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3093/797/BetterCaves-fabric-1.16.2-1.0.3.jar</URL>
+			<Size>1101828</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c92755a23c610230ea0ddbf714e5cab0</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Overhauled cave generation, underground lakes and rivers, lava oceans, and more! This is the most powerful and customizable Minecraft cave mod, with dozens of options and support for dimension-specific configurability.</description>
+				<version>1.16.2-1.0.3</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+		</Module>
+		<Module name="Netherite Plus Mod" id="netherite_plus" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3198/125/netherite-plus-mod-1.3.17-1.16.5-fabric.jar</URL>
+			<Size>685046</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b4028e96f40786e9c80292b295e3c7c7</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>This mod adds extra netherite features that aren&apos;t vanillia. 
+
+NOTE: Editing the config requires a game restart</description>
+				<version>1.3.17-1.16.5</version>
+				<authors>OroArmor, 1198159, Ron (Texture Artist)</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Teleporters" id="simpleteleporters" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3029/749/simpleteleporters-2.2.1.jar</URL>
+			<Size>129194</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c6136d8423e3bcbed2ff6c1ea28f5675</MD5>
+			<Meta>
+				<license>MIT License</license>
+				<description>Simple Teleporters adds a craftable teleporter block to quickly travel your world!</description>
+				<version>2.2.1</version>
+				<authors>Lemonszz, Shnupbups</authors>
+			</Meta>
+		</Module>
+		<Module name="Staff of Building" id="staffofbuilding" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3196/484/staffofbuilding-1.2.5-1.16.5.jar</URL>
+			<Size>273028</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8a7524e9db61815167736be8db4581c4</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Builder wands, but they&apos;re actually staffs!</description>
+				<version>1.2.5-1.16.5</version>
+				<authors>Draylar</authors>
+			</Meta>
+		</Module>
+		<Module name="Kibe" id="kibe" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3183/761/kibe-1.16.5-1.6.3-BETA.jar</URL>
+			<Size>2086685</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b812721340f23ef5eb045c0662ec4e47</MD5>
+			<Meta>
+				<license>Mozilla Public License 2.0</license>
+				<description>A miscellaneous mod that adds a bunch of random, and mostly unoriginal things.</description>
+				<version>1.6.3-BETA</version>
+				<authors>D4rkness_King</authors>
+			</Meta>
+		</Module>
+		<Module name="Health Overlay" id="healthoverlay" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3161/210/HealthOverlay-1.16.4-3.6.14.jar</URL>
+			<Size>238040</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>74d02de3e31bf1d1ac08f27bc372eaad</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Displays additional hearts and absorption in the same row!</description>
+				<version>3.6.14</version>
+				<authors>Terrails</authors>
+			</Meta>
+		</Module>
+		<Module name="Bedspreads" id="bedspreads" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3120/448/bedspreads-fabric-1.3.1-1.16.4.jar</URL>
+			<Size>277041</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4890a8c21908190b1bda8d5cc286a1e4</MD5>
+			<Meta>
+				<license>LGPL-3.0-or-later</license>
+				<description>Allows players to add banner patterns to their beds!</description>
+				<version>1.3.1-1.16.4</version>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+		<Module name="Harvest Scythes" id="harvest_scythes" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3174/044/wraith-harvestscythes-1.0.9.jar</URL>
+			<Size>162394</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a50e0e55207b2af23a72a14ec9bd3ecb</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Harvest crops in an area!</description>
+				<version>1.0.9</version>
+				<authors>LordDeatHunter</authors>
+			</Meta>
+		</Module>
+		<Module name="Carrier" id="carrier" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3198/165/carrier-1.7.4.jar</URL>
+			<Size>459842</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>434f2810c8b94eb76da4d0edd1e1bf1a</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Carrier enables you to easily transport chests, animals and mob spawners!</description>
+				<version>1.7.4</version>
+				<authors>GabrielOlvH</authors>
+			</Meta>
+		</Module>
+		<Module name="Ezpas" id="ezpas" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3063/422/ezpas-1.2.3-1.16.2.jar</URL>
+			<Size>165266</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>87a91c24f030d41ea3b9111fcfeb10c0</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description></description>
+				<version>1.2.3-1.16.2</version>
+				<authors>KQP</authors>
+			</Meta>
+		</Module>
+		<Module name="BLAST" id="blast" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3136/832/blast-1.5.jar</URL>
+			<Size>88374</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d1049e04724851389f434d55a87aeb4</MD5>
+			<Meta>
+				<license>ARR</license>
+				<description>A mod about bombs.</description>
+				<version>1.5</version>
+				<authors>doctor4t</authors>
+			</Meta>
+		</Module>
+		<Module name="Astromine" id="astromine" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3170/222/astromine-1.11.5+fabric-1.16.5.jar</URL>
+			<Size>8237488</Size>
+			<Required>true</Required>
+			<ModType>Removal</ModType>
+			<MD5>4affcee0f0da4871dc2fcb8440400d6c</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>A space-themed technological modification with exploration, weapons and progression in mind.</description>
+				<version>1.11.5+fabric-1.16.5</version>
+				<authors>vini2003, Shnupbups, Zundrel, shedaniel, MoonlitLamps, SuperCoder79, Draylar, HalfOf2, Martmists, AK9</authors>
+			</Meta>
+		</Module>
+		<Module name="Mo&apos; Structures" id="mostructures" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3127/503/mostructures-1.0.1+mc.1.16.4.jar</URL>
+			<Size>661826</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a3b33383d164767771af5ab8fc2ab6fd</MD5>
+			<Meta>
+				<license>LGPL-3.0</license>
+				<description>Adds structures with loot and spawners to Minecraft to increase the RPG aspect of the game.</description>
+				<version>1.0.1+mc.1.16.4</version>
+				<authors>frqnny</authors>
+			</Meta>
+		</Module>
+		<Module name="Identity" id="identity" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3194/027/identity-1.11.6-beta-1.16.4.jar</URL>
+			<Size>474519</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cb8b8081c2004fa1d51003421291fc1b</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Morph for Fabric!</description>
+				<version>1.11.6-beta-1.16.4</version>
+				<authors>Draylar</authors>
+			</Meta>
+		</Module>
+		<Module name="Ars Theurgia" id="arstheurgia" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3163/805/arstheurgia-1.0.6.jar</URL>
+			<Size>3584139</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4dca10a4caaba744d504556d816b76dd</MD5>
+			<Meta>
+				<license>LGPL-3.0</license>
+				<description></description>
+				<version>1.0.6</version>
+				<authors>cominixo, doseijin, Lorde_Phenkka, Walter_Dq</authors>
+			</Meta>
+		</Module>
+		<Module name="Repurposed Structures" id="repurposed_structures" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3169/629/repurposed_structures-1.16.4-1.7.4.jar</URL>
+			<Size>3203379</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>862c97bc4e079ff236b870d0b5af4146</MD5>
+			<Meta>
+				<license>GNU General Public License v3.0</license>
+				<description>Adds more variations of vanilla structures and features!</description>
+				<version>1.16.4-1.7.4</version>
+				<authors>TelepathicGrunt</authors>
+			</Meta>
+		</Module>
+		<Module name="Fat Experience Orbs" id="fatxporbs" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3128/781/fatxporbs-0.0.9+1.16.4.jar</URL>
+			<Size>5001</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>198e663bf3e5762e4db199589f4ec857</MD5>
+			<Meta>
+				<license>MIT-0</license>
+				<description>Makes Experience orbs combine together.</description>
+				<version>0.0.9</version>
+				<authors>NinjaPhenix</authors>
+			</Meta>
+		</Module>
+		<Module name="Better End" id="betterend" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3168/267/better-end-0.8.8-beta.jar</URL>
+			<Size>68620309</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>267271306f077242b93409a3b060f2f6</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>More content for The End.</description>
+				<version>0.8.8-beta</version>
+				<authors>paulevs, Bulldog83</authors>
+			</Meta>
+		</Module>
+		<Module name="Diggus Maximus" id="diggusmaximus" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3087/345/diggusmaximus-1.4.2-1.16.3.jar</URL>
+			<Size>505066</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c345b8dc159d88bb284975bd6f928670</MD5>
+			<Meta>
+				<description>empty</description>
+				<version>empty</version>
+				<authors>empty</authors>
+			</Meta>
+		</Module>
+		<Module name="Gravestones" id="gravestones" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3135/731/gravestones-v1.7.jar</URL>
+			<Size>721631</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>00b063de75217173418ef042514a0932</MD5>
+			<Meta>
+				<description>empty</description>
+				<version>empty</version>
+				<authors>empty</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
